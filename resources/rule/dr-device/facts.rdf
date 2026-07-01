@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:lc="http://informatika.ftn.uns.ac.rs/legal-case.rdf#">
+  <lc:case rdf:about="http://informatika.ftn.uns.ac.rs/legal-case.rdf#case01">
+    <lc:co_perpetration>no</lc:co_perpetration>
+    <lc:cited_article_23_para_2>no</lc:cited_article_23_para_2>
+    <lc:fish_closed_season_or_prohibited_waters>yes</lc:fish_closed_season_or_prohibited_waters>
+    <lc:fish_prohibited_means>yes</lc:fish_prohibited_means>
+    <lc:fish_large_quantity_or_high_value>no</lc:fish_large_quantity_or_high_value>
+    <lc:use_of_electricity>yes</lc:use_of_electricity>
+    <lc:use_of_aggregate>yes</lc:use_of_aggregate>
+    <lc:use_of_probe>yes</lc:use_of_probe>
+    <lc:use_of_converter>no</lc:use_of_converter>
+    <lc:catch_present>yes</lc:catch_present>
+    <lc:confiscation_ordered>yes</lc:confiscation_ordered>
+    <lc:hunt_closed_season_or_prohibited_area>yes</lc:hunt_closed_season_or_prohibited_area>
+    <lc:hunt_foreign_hunting_ground>no</lc:hunt_foreign_hunting_ground>
+    <lc:hunt_killed_injured_or_captured_game>no</lc:hunt_killed_injured_or_captured_game>
+    <lc:hunt_big_game>no</lc:hunt_big_game>
+    <lc:hunt_prohibited_species>no</lc:hunt_prohibited_species>
+    <lc:hunt_without_special_permit>no</lc:hunt_without_special_permit>
+    <lc:hunt_mass_destruction_means>no</lc:hunt_mass_destruction_means>
+    <lc:repeat_offender>no</lc:repeat_offender>
+  </lc:case>
+</rdf:RDF>

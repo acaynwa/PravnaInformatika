@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17 ../../schemas/akomantoso30.xsd">
+  <judgment>
+    <meta>
+      <identification source="#court">
+        <FRBRWork>
+          <FRBRauthor>OSNOVNI SUD U NIKŠIĆU</FRBRauthor>
+          <FRBRdate date="2024-02-09">2024-02-09</FRBRdate>
+          <FRBRtitle>K 274/23</FRBRtitle>
+          <FRBRcountry>CG</FRBRcountry>
+        </FRBRWork>
+      </identification>
+      <references>
+        <TLCOrganization eId="court" href="/ontology/organization/OsnovniSud.Niksic" showAs="Osnovni Sud u Nikšiću" />
+        <TLCOrganization eId="prosecutor_office" href="/ontology/organization/OsnovnoDrzavnoTuzilastvo.Niksic" showAs="Osnovno državno tužilaštvo u Nikšiću" />
+        <TLCPerson eId="judge_person" href="/ontology/person/m-k" showAs="Mirko Kojović" />
+        <TLCPerson eId="clerk_person" href="/ontology/person/b-p" showAs="Budimirka Papović" />
+        <TLCPerson eId="prosecutor_person" href="/ontology/person/v-s" showAs="Vanja Sinđić" />
+        <TLCPerson eId="defendant_1" href="/ontology/person/b-s" showAs="B. S." />
+        <TLCRole eId="defendant" href="/ontology/role/defendant" showAs="Defendant" />
+        <TLCRole eId="judge" href="/ontology/role/judge" showAs="Judge" />
+        <TLCRole eId="clerk" href="/ontology/role/clerk" showAs="Clerk" />
+        <TLCRole eId="prosecutor" href="/ontology/role/prosecutor" showAs="Prosecutor" />
+      </references>
+    </meta>
+    <judgmentBody>
+      <introduction>
+        <p><organization id="court" refersTo="#court">Osnovni Sud u Nikšiću</organization></p>
+        <p>9. Februar 2024</p>
+        <p class="subtitle">K. br. 274/23</p>
+        <p class="subtitle">U IME CRNE GORE</p>
+        <p><organization id="court" refersTo="#court">Osnovni sud u Nikšiću</organization>, sudija <party id="judge_person" refersTo="#judge_person" as="#judge">Mirko Kojović</party>, uz učešće zapisničarke <party id="clerk_person" refersTo="#clerk_person" as="#clerk">Budimirke Papović</party>, u krivičnom postupku protiv okrivljenog <party id="defendant_1" refersTo="#defendant_1" as="#defendant">B. S.</party>, zbog krivičnog djela nezakonit lov iz <ref href="/krivicni#art_325_para_1">člana 325 stav 1</ref> <ref href="/krivicni">Krivičnog zakonika Crne Gore</ref>, dana 09.02.2024. godine izrekao je i objavio</p>
+      </introduction>
+      <background>
+        <p class="subtitle">PRESUDU</p>
+        <p>Prema okrivljenom <party id="defendant_1" refersTo="#defendant_1" as="#defendant">B. S.</party>, državljanin Crne Gore, oženjen – otac dvoje djece, sa visokom stručnom spremom, lošeg imovnog stanja, ranije neosuđivan.</p>
+      </background>
+      <decision>
+        <p>Na osnovu člana 372 stav 1 tačka 3 Zakonika o krivičnom postupku</p>
+        <p class="subtitle">OPTUŽBA SE ODBIJA</p>
+        <p>Da je dana 19.01.2020. godine, u Plužinama, svjestan djela čije je izvršenje htio, na lokalitetu Žagarica, koji pripada lokalitetu području trajnog lovnog zabrana lovišta Plužine, kojom teritorijom gazduje Udruženje lovaca Bajo Pivljanin Plužine, neovlašćeno, protivno odredbi člana 54 stav 1 tačka 2 i člana 66 tačka 11 Zakona o divljači i lovstvu Crne Gore, lovio krupnu povrijeđenu divljač – divlju svinju, koju je odstrijelio na nelovnoj površini.</p>
+        <p>- čime bi izvršio krivično djelo nezakonit lov iz <ref href="/krivicni#art_325_para_1">člana 325 stav 1</ref> <ref href="/krivicni">Krivičnog zakonika Crne Gore</ref>.</p>
+        <p>Na osnovu člana 97 Zakonika o krivičnom postupku okrivljenom B. S. se vraća oružje – puška „Browning“ model „Bar“, kalibra 30-06SPRG, kao predmet koji je u toku krivičnog postupka privremeno oduzet.</p>
+        <p>Troškovi krivičnog postupka padaju na teret posebnog razdjela budžeta za rad sudova.</p>
+      </decision>
+      <arguments>
+        <p class="subtitle">Obrazloženje</p>
+        <p>Osnovno državno tužilaštvo u Nikšiću podnijelo je optužni predlog Kt. br. 532/20 od 26.11.2020. godine protiv okrivljenog B. S., kojim mu je stavljeno na teret izvršenje krivičnog djela nezakonit lov iz člana 325 stav 3 u vezi stav 1 Krivičnog zakonika Crne Gore. Na glavnom pretresu državna tužiteljka je promijenila pravnu kvalifikaciju krivičnog djela u „iz člana 325 stav 1 Krivičnog zakonika Crne Gore“.</p>
+        <p>Okrivljeni B. S. u odbrani nije priznao izvršenje krivičnog djela stavljenog mu na teret i pridružio se završnoj riječi svog branioca, koji je istakao da je nastupila apsolutna zastarjelost krivičnog djela, s obzirom da se navedeni događaj desio dana 19.01.2020. godine.</p>
+        <p>Sud je u dokaznom postupku pročitao zapisnik o uviđaju UP CB Nikšić, veterinarski izvještaj, fotodokumentaciju, potvrdu o privremeno oduzetim predmetima, iskaze svjedoka Ž. M., Ž. L., Lj. M., V. J., D. B., te druge dopise lovačkog udruženja „Bajo Pivljanin“.</p>
+        <p>Nakon provedenog dokaznog postupka sud je utvrdio da je za predmetno krivično djelo nastupila zastarjelost krivičnog gonjenja, te se primjenom citirane zakonske odredbe odlučio kao u izreci presude.</p>
+        <p>Naime, optužnim predlogom je stavljeno na teret da je 19.01.2020. godine izvršeno krivično djelo nezakonit lov iz člana 325 stav 1 KZ, za koje je alternativno predviđena novčana kazna ili kazna zatvora do šest mjeseci. Članom 124 stav 1 tačka 7 KZ propisano je da se krivično gonjenje ne može preduzeti kada protekne dvije godine od izvršenja krivičnog djela za koje se po zakonu može izreći kazna zatvora do jedne godine, a članom 125 stav 7 KZ da zastarjelost nastaje u svakom slučaju kada protekne dvostruko vrijeme.</p>
+        <p>Apsolutna zastarjelost krivičnog gonjenja za krivično djelo nezakonit lov iz člana 325 stav 1 KZ nastupila je dana 20.01.2024. godine, iz kog razloga je sud na osnovu člana 372 stav 1 tačka 3 ZKP donio presudu kojom se optužba odbija.</p>
+        <p>Na osnovu člana 97 ZKP, sud je okrivljenom B. S. vratio oružje – pušku „Browning“ model „Bar“, kalibra 30-06SPRG, kao predmet koji je u toku krivičnog postupka privremeno oduzet.</p>
+        <p><organization id="court" refersTo="#court">OSNOVNI SUD U NIKŠIĆU</organization>, dana 09.02.2024. godine</p>
+      </arguments>
+    </judgmentBody>
+    <conclusions>
+        <p>PRAVNA POUKA: Protiv ove presude dozvoljena je žalba u roku od 8 dana od prijema prepisa iste, Višem sudu u Podgorici, a preko ovog suda.</p>
+    </conclusions>
+  </judgment>
+</akomaNtoso>

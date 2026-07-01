@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17 ../../schemas/akomantoso30.xsd">
+  <judgment>
+    <meta>
+      <identification source="#court">
+        <FRBRWork>
+          <FRBRauthor>OSNOVNI SUD U HERCEG NOVOM</FRBRauthor>
+          <FRBRdate date="2021-06-30">2021-06-30</FRBRdate>
+          <FRBRtitle>K 92/21</FRBRtitle>
+          <FRBRcountry>CG</FRBRcountry>
+        </FRBRWork>
+      </identification>
+      <references>
+        <TLCOrganization eId="court" href="/ontology/organization/OsnovniSud.HercegNovi" showAs="Osnovni Sud u Herceg Novom" />
+        <TLCOrganization eId="prosecutor_office" href="/ontology/organization/OsnovnoDrzavnoTuzilastvo.HercegNovi" showAs="Osnovno državno tužilaštvo u Herceg Novom" />
+        <TLCPerson eId="judge_person" href="/ontology/person/i-p" showAs="Ivan Perović" />
+        <TLCPerson eId="clerk_person" href="/ontology/person/t-m" showAs="Tereza Milović" />
+        <TLCPerson eId="prosecutor_person" href="/ontology/person/r-s" showAs="Risto Stijović" />
+        <TLCPerson eId="defendant_1" href="/ontology/person/z-r" showAs="Z. R." />
+        <TLCRole eId="defendant" href="/ontology/role/defendant" showAs="Defendant" />
+        <TLCRole eId="judge" href="/ontology/role/judge" showAs="Judge" />
+        <TLCRole eId="clerk" href="/ontology/role/clerk" showAs="Clerk" />
+        <TLCRole eId="prosecutor" href="/ontology/role/prosecutor" showAs="Prosecutor" />
+      </references>
+    </meta>
+    <judgmentBody>
+      <introduction>
+        <p><organization id="court" refersTo="#court">Osnovni Sud u Herceg Novom</organization></p>
+        <p>30. Jun 2021</p>
+        <p class="subtitle">K. br. 92/21</p>
+        <p class="subtitle">U IME CRNE GORE</p>
+        <p><organization id="court" refersTo="#court">OSNOVNI SUD u HERCEG NOVOM</organization>, sudija <party id="judge_person" refersTo="#judge_person" as="#judge">Ivan Perović</party>, uz sudjelovanje zapisničara <party id="clerk_person" refersTo="#clerk_person" as="#clerk">Tereze Milović</party>, u predmetu okrivljenog <party id="defendant_1" refersTo="#defendant_1" as="#defendant">Z. R.</party> zbog krivičnog djela nezakonit lov iz <ref href="/krivicni#art_325_para_1">čl. 325 st. 1</ref> KZ i krivičnog djela ubijanje i mučenje životinja i razaranje njihovog staništa iz čl. 309 st. 1 KZ, po optužnom predlogu ODT Herceg Novi Kt. br. 186/21 od 14.06.2021. godine, dana 30.06.2021. godine donio je i javno objavio</p>
+      </introduction>
+      <background>
+        <p class="subtitle">PRESUDU</p>
+        <p>Okrivljeni <party id="defendant_1" refersTo="#defendant_1" as="#defendant">Z. R.</party>, državljanin Crne Gore, završio srednju školu, nezaposlen, lošeg imovnog stanja, neoženjen, ranije neosuđivan.</p>
+      </background>
+      <decision>
+        <p>Kriv je</p>
+        <p>Što je dana 14.05.2021. godine oko 10,00 časova u selu Sitnica, opština Herceg Novi, u reonu lovišta Bjelotina, kršeći propise iz čl. 35 i čl. 66 st. 1 tač. 10 Zakona o divljači i lovstvu, kao i Pravilnika o lovnim sezonama, lovio divljač za vrijeme lovostaja i ubio životinju – divlju svinju – vepra težine oko 90 kg, na način što je koristeći psa goniča otišao u lov i lovačkom puškom „Zastava“ fab. br. 152694 opalio dva projektila koji su vepra pogodili i ubili, pri čemu je bio svjestan svojih djela i htio njihovo izvršenje.</p>
+        <p>- čime je učinio krivično djelo nezakonit lov iz <ref href="/krivicni#art_325_para_1">čl. 325 st. 1</ref> <ref href="/krivicni">Krivičnog zakonika</ref> u sticaju sa krivičnim djelom ubijanje i mučenje životinja iz čl. 309 st. 1 KZ.</p>
+        <p>Sud okrivljenom Z. R. primjenom čl. 4 st. 2, čl. 42 i čl. 48 KZ utvrđuje za krivično djelo nezakonit lov iz čl. 325 st. 1 KZ kaznu zatvora u trajanju od 2 (dva) mjeseca, a za krivično djelo iz čl. 309 st. 1 KZ kaznu zatvora u trajanju od 4 (četiri) mjeseca, pa primjenom čl. 52, 53 i 54 KZ izriče</p>
+        <p class="subtitle">USLOVNU OSUDU</p>
+        <p>Kojom mu utvrđuje jedinstvenu kaznu zatvora u trajanju od 5 (pet) mjeseci, pri čemu se ista neće izvršiti ukoliko u roku od 2 (dvije) godine po pravosnažnosti presude okrivljeni ne učini novo krivično djelo.</p>
+        <p>Sud shodno <ref href="/krivicni#art_325_para_5">čl. 325 st. 5</ref> KZ okrivljenom Z. R. izriče</p>
+        <p class="subtitle">MJERU BEZBJEDNOSTI</p>
+        <p>Oduzimanje predmeta – lovačke puške „Zastava“ fab. br. 152694.</p>
+        <p>Obavezuje se okrivljeni da na ime troškova krivičnog postupka plati iznos od 30,00 € u roku od 15 dana po pravosnažnosti presude.</p>
+      </decision>
+      <arguments>
+        <p class="subtitle">Obrazloženje</p>
+        <p>ODT Herceg Novi optužnim predlogom stavilo je na teret okrivljenom Z. R. izvršenje krivičnog djela nezakonit lov iz čl. 325 st. 1 KZ i krivičnog djela ubijanje i mučenje životinja iz čl. 309 st. 1 KZ.</p>
+        <p>Okrivljeni Z. R. je u svojoj odbrani naveo da je dana 14.05.2021. godine oko 07,00 časova vozilom sam otišao u lov u reonu sela Mokrine, da je uzeo registrovanu lovačku pušku sačmaricu i jednog lovačkog kera, da je razlog odlaska u lov bio taj što su se građani sela Mokrine žalili da im divlja svinja pravi štetu. Na lokalitetu Sitnica naišao je na divljeg vepra težine oko 90 kg, opalio dva hica iz lovačke puške i istog ubio. Naveo je da mu je bilo poznato da je na snazi lovostaj na divlje svinje od februara do oktobra tekuće godine.</p>
+        <p>Sud je saslušao svjedoka LJ. M. (predsjednika lovačkog društva „Orjen“), pročitao iskaz svjedoka J. R. (lovočuvara), potvrdu o privremenom oduzimanju ulova i sredstava za lov, zapisnik o izvršenom pregledu, fotografije ubijene divljači, te izvod iz kaznene evidencije.</p>
+        <p>Iz potvrde proizilazi da su od Z. R. privremeno oduzeti ulovljena divlja svinja-vepar težine oko 90 kg i oružje vrste „Zastava“ fab. br. 152694.</p>
+        <p>Pravilnikom o lovnim sezonama određena je lovna sezona za krupnu dlakavu divljač u koju spada i divlja svinja, i ta lovna sezona za divlje svinje traje od 01.10. do 31.01., pa je sud našao da je kritičnom prilikom – 14.05.2021. godine – bio na snazi lovostaj.</p>
+        <p>Okrivljeni je sa direktnim umišljajem počinio krivično djelo nezakonit lov iz čl. 325 st. 1 KZ, kao i krivično djelo ubijanje i mučenje životinja iz čl. 309 st. 1 KZ.</p>
+        <p>Prilikom odlučivanja o krivičnoj sankciji, sud je cijenio kao olakšavajuće okolnosti činjenice da se radi o nezaposlenom licu lošeg imovnog stanja, relativno mlađem licu, ranije neosuđivanom, dok otežavajućih okolnosti nije našao, pa je izrekao uslovnu osudu sa jedinstvenom kaznom zatvora od 5 mjeseci i rokom provjeravanja od 2 godine.</p>
+        <p><organization id="court" refersTo="#court">OSNOVNI SUD u HERCEG NOVOM</organization>, dana 30.06.2021. godine</p>
+      </arguments>
+    </judgmentBody>
+    <conclusions>
+        <p>PRAVNA POUKA: Protiv ove presude dozvoljena je žalba u roku od 8 dana od dana prijema pismenog otpravka iste, Višem sudu u Podgorici, a preko ovog suda.</p>
+    </conclusions>
+  </judgment>
+</akomaNtoso>

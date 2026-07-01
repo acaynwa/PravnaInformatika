@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <judgment name="K_501_2026">
+    <meta>
+      <identification source="#court">
+        <FRBRWork>
+          <FRBRthis value="/akn/me/judgment/K_501_2026"/>
+          <FRBRuri value="/akn/me/judgment/K_501_2026"/>
+          <FRBRdate date="2026-05-10" name="judgment"/>
+          <FRBRauthor href="#court"/>
+          <FRBRcountry value="me"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/me/judgment/K_501_2026/srp@2026-05-10"/>
+          <FRBRuri value="/akn/me/judgment/K_501_2026/srp@2026-05-10"/>
+          <FRBRdate date="2026-05-10" name="judgment"/>
+          <FRBRauthor href="#court"/>
+          <FRBRlanguage language="srp"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/me/judgment/K_501_2026/srp@2026-05-10.xml"/>
+          <FRBRuri value="/akn/me/judgment/K_501_2026/srp@2026-05-10.xml"/>
+          <FRBRdate date="2026-05-10" name="generation"/>
+          <FRBRauthor href="#system"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#court">
+        <TLCOrganization eId="court" href="/ontology/organization/me/herceg_novom" showAs="Osnovni Sud u Herceg Novom"/>
+        <TLCPerson eId="sudija" href="/ontology/person/sudija_korisnicki_unos" showAs="Ivan Perovic"/>
+        <TLCPerson eId="zapisnicar" href="/ontology/person/zapisnicar_korisnicki_unos" showAs="T. M."/>
+        <TLCPerson eId="defendant" href="/ontology/person/okrivljeni_korisnicki_unos" showAs="Z. R."/>
+      </references>
+      <proprietary source="#court">
+        <sud>Herceg Novom</sud>
+        <brojPredmeta>K 501/26</brojPredmeta>
+        <datum>2026-05-10</datum>
+        <datumNormalizovan>2026-05-10</datumNormalizovan>
+        <godina>2026</godina>
+        <sudija>Ivan Perovic</sudija>
+        <zapisnicar>T. M.</zapisnicar>
+        <okrivljeni>Z. R.</okrivljeni>
+        <zaposlenost>nezaposlen</zaposlenost>
+        <obrazovanje>srednje</obrazovanje>
+        <ranijeOsudjivan>ne</ranijeOsudjivan>
+        <tipKrivicnogDjela>nezakonit lov</tipKrivicnogDjela>
+        <clanKZ>cl. 325 st. 1</clanKZ>
+        <saizvrsilastvo>ne</saizvrsilastvo>
+        <zabranjenoSredstvo>ne</zabranjenoSredstvo>
+        <lovostajIliZabranjeneVode>da</lovostajIliZabranjeneVode>
+        <velikaKolicina>ne</velikaKolicina>
+        <elektricnaStruja>ne</elektricnaStruja>
+        <agregat>ne</agregat>
+        <sonda>ne</sonda>
+        <pretvarac>ne</pretvarac>
+        <prisutanUlov>da</prisutanUlov>
+        <kolicinaUlovaKg>90.0</kolicinaUlovaKg>
+        <oduzimanjePredmeta>da</oduzimanjePredmeta>
+        <brojOkrivljenih>1</brojOkrivljenih>
+        <brojSvjedoka>2</brojSvjedoka>
+        <brojDokaza>3</brojDokaza>
+        <kazna>3 mjeseci</kazna>
+        <kaznaZatvoraMjeseci>3</kaznaZatvoraMjeseci>
+        <kaznaZatvoraDani>0</kaznaZatvoraDani>
+        <radUJavnomInteresuCasovi>0</radUJavnomInteresuCasovi>
+        <rokProvjereGodine>0</rokProvjereGodine>
+        <troskoviEur>0</troskoviEur>
+        <uslovnaOsuda>Ne</uslovnaOsuda>
+        <vrstaPresude>Osuđujuća</vrstaPresude>
+        <opisSlucaja>Optuženi Z. R. se tereti da je u Herceg Novom, dana 2026-05-10, izvršio krivično djelo nezakonitog lova iz cl. 325 st. 1 Krivičnog zakonika Crne Gore u vrijeme lovostaja ili na području gdje je lov zabranjen, koristeći vatreno oružje, koristeći jednog lovačkog psa, odstrijelivši divlju svinju težine oko 90.0 kg. Djelo je izvršeno u sticaju sa drugim krivičnim djelom (npr. nedozvoljeno držanje oružja iz čl. 403 ili ubijanje životinja iz čl. 309 KZ). Predmeti korišćeni za izvršenje krivičnog djela su oduzeti. Okrivljeni ranije nije osuđivan. Okrivljeni je nezaposlen. Okrivljeni je priznao izvršenje krivičnog djela. Saslušani su svjedoci: LJ. M., J. R.. Materijalni dokazi: Potvrda o privremenom oduzimanju ulova i sredstava za lov, Zapisnik LD Orjen, Fotografije ubijene divljaci.</opisSlucaja>
+        <generatedBy>markov-chain</generatedBy>
+        <generationNote>Primijenjeni clanovi: 325.1. Rule preporuka: 68 dana. CBR kazna 3.8 mj, uslovna 80%. Slicni: K 92/21, K 65/20, K 274/23.</generationNote>
+        <svjedoci>
+          <svjedok>LJ. M.</svjedok>
+          <svjedok>J. R.</svjedok>
+        </svjedoci>
+        <dokazi>
+          <dokaz>Potvrda o privremenom oduzimanju ulova i sredstava za lov</dokaz>
+          <dokaz>Zapisnik LD Orjen</dokaz>
+          <dokaz>Fotografije ubijene divljaci</dokaz>
+        </dokazi>
+        <bracniStatus>neozenjen</bracniStatus>
+      </proprietary>
+    </meta>
+    <judgmentBody>
+      <introduction>
+        <p>U IME CRNE GORE, Osnovni sud u Herceg Novom, po sudiji Ivan Perovic, uz ucesce zapisnicara T. M., u krivicnom predmetu protiv okrivljenog Z. R., zbog krivicnog djela nezakonit lov iz cl. 325 st. 1 Krivicnog zakonika Crne Gore, nakon odrzanog glavnog pretresa, donio je dana 2026-05-10 sljedecu PRESUDU:</p>
+      </introduction>
+      <background>
+        <p>Optuženi Z. R. se tereti da je u Herceg Novom, dana 2026-05-10, izvršio krivično djelo nezakonitog lova iz cl. 325 st. 1 Krivičnog zakonika Crne Gore u vrijeme lovostaja ili na području gdje je lov zabranjen, koristeći vatreno oružje, koristeći jednog lovačkog psa, odstrijelivši divlju svinju težine oko 90.0 kg. Djelo je izvršeno u sticaju sa drugim krivičnim djelom (npr. nedozvoljeno držanje oružja iz čl. 403 ili ubijanje životinja iz čl. 309 KZ). Predmeti korišćeni za izvršenje krivičnog djela su oduzeti. Okrivljeni ranije nije osuđivan. Okrivljeni je nezaposlen. Okrivljeni je priznao izvršenje krivičnog djela. Saslušani su svjedoci: LJ. M., J. R.. Materijalni dokazi: Potvrda o privremenom oduzimanju ulova i sredstava za lov, Zapisnik LD Orjen, Fotografije ubijene divljaci.</p>
+        <p>Okrivljeni: Z. R.</p>
+        <p>Zapisničar: T. M.</p>
+        <p>Datum odluke: 2026-05-10</p>
+      </background>
+      <arguments>
+        <block name="opisSlucaja">
+          <p>Optuženi Z. R. se tereti da je u Herceg Novom, dana 2026-05-10, izvršio krivično djelo nezakonitog lova iz cl. 325 st. 1 Krivičnog zakonika Crne Gore u vrijeme lovostaja ili na području gdje je lov zabranjen, koristeći vatreno oružje, koristeći jednog lovačkog psa, odstrijelivši divlju svinju težine oko 90.0 kg. Djelo je izvršeno u sticaju sa drugim krivičnim djelom (npr. nedozvoljeno držanje oružja iz čl. 403 ili ubijanje životinja iz čl. 309 KZ). Predmeti korišćeni za izvršenje krivičnog djela su oduzeti. Okrivljeni ranije nije osuđivan. Okrivljeni je nezaposlen. Okrivljeni je priznao izvršenje krivičnog djela. Saslušani su svjedoci: LJ. M., J. R.. Materijalni dokazi: Potvrda o privremenom oduzimanju ulova i sredstava za lov, Zapisnik LD Orjen, Fotografije ubijene divljaci.</p>
+        </block>
+      </arguments>
+      <motivation>
+        <block name="dokazi">
+          <tblock>
+            <p>• Potvrda o privremenom oduzimanju ulova i sredstava za lov</p>
+            <p>• Zapisnik LD Orjen</p>
+            <p>• Fotografije ubijene divljaci</p>
+          </tblock>
+        </block>
+        <block name="obrazlozenje">
+          <p>Optuzenom Z. R. stavljeno je na teret krivicno djelo nezakonit lov iz 325.1 Krivicnog zakonika Crne Gore. Sud je cijenio sve izvedene dokaze (Potvrda o privremenom oduzimanju ulova i sredstava za lov, Zapisnik LD Orjen, Fotografije ubijene divljaci) pojedinacno i u medjusobnoj vezi, te utvrdio sljedece cinjenicno stanje: Optuženi Z. R. se tereti da je u Herceg Novom, dana 2026-05-10, izvršio krivično djelo nezakonitog lova iz cl. 325 st. 1 Krivičnog zakonika Crne Gore u vrijeme lovostaja ili na području gdje je lov zabranjen, koristeći vatreno oružje, koristeći jednog lovačkog psa, odstrijelivši divlju svinju težine oko 90.0 kg. Djelo je izvršeno u sticaju sa drugim krivičnim djelom (npr. nedozvoljeno držanje oružja iz čl. 403 ili ubijanje životinja iz čl. 309 KZ). Predmeti korišćeni za izvršenje krivičnog djela su oduzeti. Okrivljeni ranije nije osuđivan. Okrivljeni je nezaposlen. Okrivljeni je priznao izvršenje krivičnog djela. Saslušani su svjedoci: LJ. M., J. R.. Materijalni dokazi: Potvrda o privremenom oduzimanju ulova i sredstava za lov, Zapisnik LD Orjen, Fotografije ubijene divljaci. U dokaznom postupku saslusani su svjedoci: LJ. M., J. R.. Utvrdeno je da je okrivljeni lovio divljac u vrijeme lovostaja ili na podrucju gdje je lov zabranjen, lovio krupnu divljac, nosio i drzao vatreno oruzje, koristio jednog lovackog psa, odstrijelio divlju svinju, ulov tezine oko 90.0 kg. Cijeneci utvrdjeno cinjenicno stanje, sud je nasao da su se u radnjama okrivljenog stekla sva bitna obiljezja krivicnog djela iz 325.1 Krivicnog zakonika. Prilikom odluke o krivicnoj sankciji, sud je u smislu cl. 42 st. 1 Krivicnog zakonika cijenio sve okolnosti koje su od uticaja na njen izbor i visinu. Na strani okrivljenog, kao olaksavajuce okolnosti sud je cijenio: Ranije neosudivan (čl. 42). Kao otezavajuce okolnosti sud je cijenio: Značajna količina ulova (90.0 kg). Rasudivanje po slicnim slucajevima (K 92/21 (slicnost 94.9%, kazna 5.0 mj.); K 65/20 (slicnost 77.8%, kazna 2.0 mj.); K 274/23 (slicnost 74.2%, kazna 0.0 mj.)) dalo je preporucenu kaznu od 3.8 mjeseci, sa vjerovatnocom uslovne presude 80%. P R E S U D U Okrivljeni: Z.R., JMBG ...., od oca A.i majke H.rodj. H., rodjen . godine, u R.živi u s. Imajuci u vidu navedeno, odluceno je kao u dispozitivu ove presude.</p>
+        </block>
+      </motivation>
+      <decision>
+        <block name="odluka">
+          <p>Okrivljeni Z. R. proglasava se KRIVIM za krivicno djelo nezakonit lov iz cl. 325 st. 1 Krivicnog zakonika Crne Gore i OSUDJUJE SE na kaznu zatvora u trajanju od 3 mjeseci. Na osnovu cl. 75 i cl. 325 st. 5 Krivicnog zakonika Crne Gore, izrice se mjera bezbjednosti oduzimanja ulovljene divljaci i sredstava za lov.</p>
+          <p>Kazna: 3 mjeseci</p>
+        </block>
+      </decision>
+    </judgmentBody>
+    <conclusions>
+      <block name="pravniOsnov">
+        <p>Krivično djelo: nezakonit lov (cl. 325 st. 1 Krivičnog zakonika Crne Gore)</p>
+      </block>
+      <block name="generatorMeta">
+        <p>Primijenjeni clanovi: 325.1. Rule preporuka: 68 dana. CBR kazna 3.8 mj, uslovna 80%. Slicni: K 92/21, K 65/20, K 274/23.</p>
+      </block>
+    </conclusions>
+  </judgment>
+</akomaNtoso>

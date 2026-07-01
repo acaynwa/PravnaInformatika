@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <judgment name="K_505_2026">
+    <meta>
+      <identification source="#court">
+        <FRBRWork>
+          <FRBRthis value="/akn/me/judgment/K_505_2026"/>
+          <FRBRuri value="/akn/me/judgment/K_505_2026"/>
+          <FRBRdate date="2026-05-10" name="judgment"/>
+          <FRBRauthor href="#court"/>
+          <FRBRcountry value="me"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/me/judgment/K_505_2026/srp@2026-05-10"/>
+          <FRBRuri value="/akn/me/judgment/K_505_2026/srp@2026-05-10"/>
+          <FRBRdate date="2026-05-10" name="judgment"/>
+          <FRBRauthor href="#court"/>
+          <FRBRlanguage language="srp"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/me/judgment/K_505_2026/srp@2026-05-10.xml"/>
+          <FRBRuri value="/akn/me/judgment/K_505_2026/srp@2026-05-10.xml"/>
+          <FRBRdate date="2026-05-10" name="generation"/>
+          <FRBRauthor href="#system"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#court">
+        <TLCOrganization eId="court" href="/ontology/organization/me/podgorici" showAs="Osnovni Sud u Podgorici"/>
+        <TLCPerson eId="sudija" href="/ontology/person/sudija_korisnicki_unos" showAs="Ana Boskovic"/>
+        <TLCPerson eId="zapisnicar" href="/ontology/person/zapisnicar_korisnicki_unos" showAs="M. M."/>
+        <TLCPerson eId="defendant" href="/ontology/person/okrivljeni_korisnicki_unos" showAs="A. B."/>
+      </references>
+      <proprietary source="#court">
+        <sud>Podgorici</sud>
+        <brojPredmeta>K 505/26</brojPredmeta>
+        <datum>2026-05-10</datum>
+        <datumNormalizovan>2026-05-10</datumNormalizovan>
+        <godina>2026</godina>
+        <sudija>Ana Boskovic</sudija>
+        <zapisnicar>M. M.</zapisnicar>
+        <okrivljeni>A. B.</okrivljeni>
+        <zaposlenost>nezaposlen</zaposlenost>
+        <obrazovanje>srednje</obrazovanje>
+        <ranijeOsudjivan>ne</ranijeOsudjivan>
+        <tipKrivicnogDjela>nezakonit ribolov</tipKrivicnogDjela>
+        <clanKZ>cl. 326 st. 2</clanKZ>
+        <saizvrsilastvo>ne</saizvrsilastvo>
+        <zabranjenoSredstvo>da</zabranjenoSredstvo>
+        <lovostajIliZabranjeneVode>da</lovostajIliZabranjeneVode>
+        <velikaKolicina>ne</velikaKolicina>
+        <elektricnaStruja>da</elektricnaStruja>
+        <agregat>da</agregat>
+        <sonda>da</sonda>
+        <pretvarac>ne</pretvarac>
+        <prisutanUlov>da</prisutanUlov>
+        <kolicinaUlovaKg>8.5</kolicinaUlovaKg>
+        <oduzimanjePredmeta>da</oduzimanjePredmeta>
+        <brojOkrivljenih>1</brojOkrivljenih>
+        <brojSvjedoka>2</brojSvjedoka>
+        <brojDokaza>3</brojDokaza>
+        <kazna>6 mjeseci</kazna>
+        <kaznaZatvoraMjeseci>6</kaznaZatvoraMjeseci>
+        <kaznaZatvoraDani>0</kaznaZatvoraDani>
+        <radUJavnomInteresuCasovi>0</radUJavnomInteresuCasovi>
+        <rokProvjereGodine>0</rokProvjereGodine>
+        <troskoviEur>0</troskoviEur>
+        <uslovnaOsuda>Ne</uslovnaOsuda>
+        <vrstaPresude>Osuđujuća</vrstaPresude>
+        <opisSlucaja>Okrivljeni je dana 10. maja 2026. godine na Skadarskom jezeru lovio ribu koristeci agregat i elektricnu strugu, kojom prilikom je ulovio 8,5 kg ribe.</opisSlucaja>
+        <generatedBy>markov-chain</generatedBy>
+        <generationNote>Primijenjeni clanovi: 326.2. Rule preporuka: 10 meseci. CBR kazna 3.2 mj, uslovna 80%. Slicni: K 500/26, K 381/12, K 80/16.</generationNote>
+        <svjedoci>
+          <svjedok>D. I.</svjedok>
+          <svjedok>G. K.</svjedok>
+        </svjedoci>
+        <dokazi>
+          <dokaz>Zapisnik o kontroli NP Skadarsko jezero</dokaz>
+          <dokaz>Potvrda o oduzetom oruzju</dokaz>
+          <dokaz>Foto-dokumentacija</dokaz>
+        </dokazi>
+        <bracniStatus>ozenjen</bracniStatus>
+      </proprietary>
+    </meta>
+    <judgmentBody>
+      <introduction>
+        <p>U IME CRNE GORE, Osnovni sud u Podgorici, po sudiji Ana Boskovic, uz ucesce zapisnicara M. M., u krivicnom predmetu protiv okrivljenog A. B., zbog krivicnog djela nezakonit ribolov iz cl. 326 st. 2 Krivicnog zakonika Crne Gore, nakon odrzanog glavnog pretresa, donio je dana 2026-05-10 sljedecu PRESUDU:</p>
+      </introduction>
+      <background>
+        <p>Okrivljeni je dana 10. maja 2026. godine na Skadarskom jezeru lovio ribu koristeci agregat i elektricnu strugu, kojom prilikom je ulovio 8,5 kg ribe.</p>
+        <p>Okrivljeni: A. B.</p>
+        <p>Zapisničar: M. M.</p>
+        <p>Datum odluke: 2026-05-10</p>
+      </background>
+      <arguments>
+        <block name="opisSlucaja">
+          <p>Okrivljeni je dana 10. maja 2026. godine na Skadarskom jezeru lovio ribu koristeci agregat i elektricnu strugu, kojom prilikom je ulovio 8,5 kg ribe.</p>
+        </block>
+      </arguments>
+      <motivation>
+        <block name="dokazi">
+          <tblock>
+            <p>• Zapisnik o kontroli NP Skadarsko jezero</p>
+            <p>• Potvrda o oduzetom oruzju</p>
+            <p>• Foto-dokumentacija</p>
+          </tblock>
+        </block>
+        <block name="obrazlozenje">
+          <p>Optuzenom A. B. stavljeno je na teret krivicno djelo nezakonit ribolov iz 326.2 Krivicnog zakonika Crne Gore. Sud je cijenio sve izvedene dokaze (Zapisnik o kontroli NP Skadarsko jezero, Potvrda o oduzetom oruzju, Foto-dokumentacija) pojedinacno i u medjusobnoj vezi, te utvrdio sljedece cinjenicno stanje: Okrivljeni je dana 10. maja 2026. godine na Skadarskom jezeru lovio ribu koristeci agregat i elektricnu strugu, kojom prilikom je ulovio 8,5 kg ribe. U dokaznom postupku saslusani su svjedoci: D. I., G. K.. Utvrdeno je da je okrivljeni koristio zabranjeno sredstvo za ribolov, lovio ribu elektricnom strujom, lovio u periodu lovostaja ili u zabranjenim vodama, ulovio 8.5 kg ribe. Cijeneci utvrdjeno cinjenicno stanje, sud je nasao da su se u radnjama okrivljenog stekla sva bitna obiljezja krivicnog djela iz 326.2 Krivicnog zakonika. Prilikom odluke o krivicnoj sankciji, sud je u smislu cl. 42 st. 1 Krivicnog zakonika cijenio sve okolnosti koje su od uticaja na njen izbor i visinu. Na strani okrivljenog, kao olaksavajuce okolnosti sud je cijenio: Ranije neosudivan (čl. 42). Kao otezavajuce okolnosti sud je cijenio: Upotreba zabranjenog sredstva za lov/ribolov. Rasudivanje po slicnim slucajevima (K 500/26 (slicnost 100.0%, kazna 6.0 mj.); K 381/12 (slicnost 83.4%, kazna 0.0 mj.); K 80/16 (slicnost 76.4%, kazna 0.0 mj.)) dalo je preporucenu kaznu od 3.2 mjeseci, sa vjerovatnocom uslovne presude 80%. PRESUDU Okrivljeni G. D., JMBG ..., od oca P. i majke J., rođene B., rođen ... godine u P., selo B.P.-Z., državljanin C. Imajuci u vidu navedeno, odluceno je kao u dispozitivu ove presude.</p>
+        </block>
+      </motivation>
+      <decision>
+        <block name="odluka">
+          <p>Okrivljeni A. B. proglasava se KRIVIM za krivicno djelo nezakonit ribolov iz cl. 326 st. 2 Krivicnog zakonika Crne Gore i OSUDJUJE SE na kaznu zatvora u trajanju od 6 mjeseci. Na osnovu cl. 75 i cl. 326 st. 4 Krivicnog zakonika Crne Gore, izrice se mjera bezbjednosti oduzimanja ulova i sredstava za ribolov.</p>
+          <p>Kazna: 6 mjeseci</p>
+        </block>
+      </decision>
+    </judgmentBody>
+    <conclusions>
+      <block name="pravniOsnov">
+        <p>Krivično djelo: nezakonit ribolov (cl. 326 st. 2 Krivičnog zakonika Crne Gore)</p>
+      </block>
+      <block name="generatorMeta">
+        <p>Primijenjeni clanovi: 326.2. Rule preporuka: 10 meseci. CBR kazna 3.2 mj, uslovna 80%. Slicni: K 500/26, K 381/12, K 80/16.</p>
+      </block>
+    </conclusions>
+  </judgment>
+</akomaNtoso>

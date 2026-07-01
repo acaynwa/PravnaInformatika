@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lrml:LegalRuleML
+    xmlns:lrml="http://docs.oasis-open.org/legalruleml/ns/v1.0/"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ruleml="http://ruleml.org/spec"
+    xsi:schemaLocation="http://docs.oasis-open.org/legalruleml/ns/v1.0/ xsd-compact/lrml-compact.xsd">
+
+  <lrml:Statements>
+
+    <!-- Article 23(2) - Joint perpetration -->
+    <lrml:PrescriptiveStatement key="ps_joint_perpetration">
+      <ruleml:Rule key=":rule_joint_perpetration" closure="universal" strength="defeasible">
+        <ruleml:if>
+          <ruleml:Or>
+            <ruleml:Atom>
+              <ruleml:Rel iri="lc:co_perpetration"/>
+              <ruleml:Var type="lc:case">Case</ruleml:Var>
+              <ruleml:Data xsi:type="xs:string">yes</ruleml:Data>
+            </ruleml:Atom>
+            <ruleml:Atom>
+              <ruleml:Rel iri="lc:cited_article_23_para_2"/>
+              <ruleml:Var type="lc:case">Case</ruleml:Var>
+              <ruleml:Data xsi:type="xs:string">yes</ruleml:Data>
+            </ruleml:Atom>
+          </ruleml:Or>
+        </ruleml:if>
+        <ruleml:then>
+          <ruleml:Atom>
+            <ruleml:Rel>joint_perpetration</ruleml:Rel>
+            <ruleml:Var type="lc:case">Case</ruleml:Var>
+          </ruleml:Atom>
+        </ruleml:then>
+      </ruleml:Rule>
+    </lrml:PrescriptiveStatement>
+
+    <!-- Article 325 - Illegal hunting -->
+    <lrml:PrescriptiveStatement key="ps_hunting_1">
+      <ruleml:Rule key=":rule_hunting_1" closure="universal" strength="defeasible">
+        <ruleml:if>
+          <ruleml:Atom>
+            <ruleml:Rel iri="lc:hunt_closed_season_or_prohibited_area"/>
+            <ruleml:Var type="lc:case">Case</ruleml:Var>
+            <ruleml:Data xsi:type="xs:string">yes</ruleml:Data>
+          </ruleml:Atom>
+        </ruleml:if>
+        <ruleml:then>
+          <ruleml:Atom>
+            <ruleml:Rel>illegal_hunting_para_1</ruleml:Rel>
+            <ruleml:Var type="lc:case">Case</ruleml:Var>
+          </ruleml:Atom>
+        </ruleml:then>
+      </ruleml:Rule>
+    </lrml:PrescriptiveStatement>
+
+    <lrml:PrescriptiveStatement key="ps_hunting_2">
+      <ruleml:Rule key=":rule_hunting_2" closure="universal" strength="defeasible">
+        <ruleml:if>
+          <ruleml:And>
+            <ruleml:Atom>
+              <ruleml:Rel iri="lc:hunt_foreign_hunting_ground"/>
+              <ruleml:Var type="lc:case">Case</ruleml:Var>
+              <ruleml:Data xsi:type="xs:string">yes</ruleml:Data>
+            </ruleml:Atom>
+            <ruleml:Atom>
+              <ruleml:Rel iri="lc:hunt_killed_injured_or_captured_game"/>
+              <ruleml:Var type="lc:case">Case</ruleml:Var>
+              <ruleml:Data xsi:type="xs:string">yes</ruleml:Data>
+            </ruleml:Atom>
+          </ruleml:And>
+        </ruleml:if>
+        <ruleml:then>
+          <ruleml:Atom>
+            <ruleml:Rel>illegal_hunting_para_2</ruleml:Rel>
+            <ruleml:Var type="lc:case">Case</ruleml:Var>
+          </ruleml:Atom>
+        </ruleml:then>
+      </ruleml:Rule>
+    </lrml:PrescriptiveStatement>
+
+    <lrml:PrescriptiveStatement key="ps_hunting_3">
+      <ruleml:Rule key=":rule_hunting_3" closure="universal" strength="defeasible">
+        <ruleml:if>
+          <ruleml:And>
+            <ruleml:Atom>
+              <ruleml:Rel>illegal_hunting_para_2</ruleml:Rel>
+              <ruleml:Var type="lc:case">Case</ruleml:Var>
+            </ruleml:Atom>
+            <ruleml:Atom>
+              <ruleml:Rel iri="lc:hunt_big_game"/>
+              <ruleml:Var type="lc:case">Case</ruleml:Var>
+              <ruleml:Data xsi:type="xs:string">yes</ruleml:Data>
+            </ruleml:Atom>
+          </ruleml:And>
+        </ruleml:if>
+        <ruleml:then>
+          <ruleml:Atom>
+            <ruleml:Rel>illegal_hunting_para_3</ruleml:Rel>
+            <ruleml:Var type="lc:case">Case</ruleml:Var>
+          </ruleml:Atom>
+        </ruleml:then>
+      </ruleml:Rule>
+    </lrml:PrescriptiveStatement>
+
+    <lrml:PrescriptiveStatement key="ps_hunting_4">
+      <ruleml:Rule key=":rule_hunting_4" closure="universal" strength="defeasible">
+        <ruleml:if>
+          <ruleml:Or>
+            <ruleml:Atom>
+              <ruleml:Rel iri="lc:hunt_prohibited_species"/>
+              <ruleml:Var type="lc:case">Case</ruleml:Var>
+              <ruleml:Data xsi:type="xs:string">yes</ruleml:Data>
+            </ruleml:Atom>
+            <ruleml:Atom>
+              <ruleml:Rel iri="lc:hunt_without_special_permit"/>
+              <ruleml:Var type="lc:case">Case</ruleml:Var>
+              <ruleml:Data xsi:type="xs:string">yes</ruleml:Data>
+            </ruleml:Atom>
+            <ruleml:Atom>
+              <ruleml:Rel iri="lc:hunt_mass_destruction_means"/>
+              <ruleml:Var type="lc:case">Case</ruleml:Var>
+              <ruleml:Data xsi:type="xs:string">yes</ruleml:Data>
+            </ruleml:Atom>
+          </ruleml:Or>
+        </ruleml:if>
+        <ruleml:then>
+          <ruleml:Atom>
+            <ruleml:Rel>illegal_hunting_para_4</ruleml:Rel>
+            <ruleml:Var type="lc:case">Case</ruleml:Var>
+          </ruleml:Atom>
+        </ruleml:then>
+      </ruleml:Rule>
+    </lrml:PrescriptiveStatement>
+
+    <lrml:PrescriptiveStatement key="ps_hunting_5">
+      <ruleml:Rule key=":rule_hunting_5" closure="universal" strength="defeasible">
+        <ruleml:if>
+          <ruleml:Or>
+            <ruleml:Atom>
+              <ruleml:Rel>illegal_hunting_para_1</ruleml:Rel>
+              <ruleml:Var type="lc:case">Case</ruleml:Var>
+            </ruleml:Atom>
+            <ruleml:Atom>
+              <ruleml:Rel>illegal_hunting_para_2</ruleml:Rel>
+              <ruleml:Var type="lc:case">Case</ruleml:Var>
+            </ruleml:Atom>
+            <ruleml:Atom>
+              <ruleml:Rel>illegal_hunting_para_3</ruleml:Rel>
+              <ruleml:Var type="lc:case">Case</ruleml:Var>
+            </ruleml:Atom>
+            <ruleml:Atom>
+              <ruleml:Rel>illegal_hunting_para_4</ruleml:Rel>
+              <ruleml:Var type="lc:case">Case</ruleml:Var>
+            </ruleml:Atom>
+          </ruleml:Or>
+        </ruleml:if>
+        <ruleml:then>
+          <ruleml:Atom>
+            <ruleml:Rel>confiscation_hunting_required</ruleml:Rel>
+            <ruleml:Var type="lc:case">Case</ruleml:Var>
+          </ruleml:Atom>
+        </ruleml:then>
+      </ruleml:Rule>
+    </lrml:PrescriptiveStatement>
+
+    <!-- Article 326 - Illegal fishing -->
+    <lrml:PrescriptiveStatement key="ps_fishing_1">
+      <ruleml:Rule key=":rule_fishing_1" closure="universal" strength="defeasible">
+        <ruleml:if>
+          <ruleml:Atom>
+            <ruleml:Rel iri="lc:fish_closed_season_or_prohibited_waters"/>
+            <ruleml:Var type="lc:case">Case</ruleml:Var>
+            <ruleml:Data xsi:type="xs:string">yes</ruleml:Data>
+          </ruleml:Atom>
+        </ruleml:if>
+        <ruleml:then>
+          <ruleml:Atom>
+            <ruleml:Rel>illegal_fishing_para_1</ruleml:Rel>
+            <ruleml:Var type="lc:case">Case</ruleml:Var>
+          </ruleml:Atom>
+        </ruleml:then>
+      </ruleml:Rule>
+    </lrml:PrescriptiveStatement>
+
+    <lrml:PrescriptiveStatement key="ps_fishing_2">
+      <ruleml:Rule key=":rule_fishing_2" closure="universal" strength="defeasible">
+        <ruleml:if>
+          <ruleml:Atom>
+            <ruleml:Rel iri="lc:fish_prohibited_means"/>
+            <ruleml:Var type="lc:case">Case</ruleml:Var>
+            <ruleml:Data xsi:type="xs:string">yes</ruleml:Data>
+          </ruleml:Atom>
+        </ruleml:if>
+        <ruleml:then>
+          <ruleml:Atom>
+            <ruleml:Rel>illegal_fishing_para_2</ruleml:Rel>
+            <ruleml:Var type="lc:case">Case</ruleml:Var>
+          </ruleml:Atom>
+        </ruleml:then>
+      </ruleml:Rule>
+    </lrml:PrescriptiveStatement>
+
+    <lrml:PrescriptiveStatement key="ps_fishing_3">
+      <ruleml:Rule key=":rule_fishing_3" closure="universal" strength="defeasible">
+        <ruleml:if>
+          <ruleml:Atom>
+            <ruleml:Rel iri="lc:fish_large_quantity_or_high_value"/>
+            <ruleml:Var type="lc:case">Case</ruleml:Var>
+            <ruleml:Data xsi:type="xs:string">yes</ruleml:Data>
+          </ruleml:Atom>
+        </ruleml:if>
+        <ruleml:then>
+          <ruleml:Atom>
+            <ruleml:Rel>illegal_fishing_para_3</ruleml:Rel>
+            <ruleml:Var type="lc:case">Case</ruleml:Var>
+          </ruleml:Atom>
+        </ruleml:then>
+      </ruleml:Rule>
+    </lrml:PrescriptiveStatement>
+
+    <lrml:PrescriptiveStatement key="ps_fishing_4">
+      <ruleml:Rule key=":rule_fishing_4" closure="universal" strength="defeasible">
+        <ruleml:if>
+          <ruleml:Or>
+            <ruleml:Atom>
+              <ruleml:Rel>illegal_fishing_para_1</ruleml:Rel>
+              <ruleml:Var type="lc:case">Case</ruleml:Var>
+            </ruleml:Atom>
+            <ruleml:Atom>
+              <ruleml:Rel>illegal_fishing_para_2</ruleml:Rel>
+              <ruleml:Var type="lc:case">Case</ruleml:Var>
+            </ruleml:Atom>
+            <ruleml:Atom>
+              <ruleml:Rel>illegal_fishing_para_3</ruleml:Rel>
+              <ruleml:Var type="lc:case">Case</ruleml:Var>
+            </ruleml:Atom>
+          </ruleml:Or>
+        </ruleml:if>
+        <ruleml:then>
+          <ruleml:Atom>
+            <ruleml:Rel>confiscation_fishing_required</ruleml:Rel>
+            <ruleml:Var type="lc:case">Case</ruleml:Var>
+          </ruleml:Atom>
+        </ruleml:then>
+      </ruleml:Rule>
+    </lrml:PrescriptiveStatement>
+
+    <!-- Penalty statements for imprisonment maxima -->
+    <lrml:PenaltyStatement key="pen_hunting_1">
+      <lrml:SuborderList>
+        <lrml:Obligation>
+          <ruleml:Atom>
+            <ruleml:Rel iri=":max_imprisonment_days"/>
+            <ruleml:Var>Days</ruleml:Var>
+            <ruleml:Ind>180</ruleml:Ind>
+          </ruleml:Atom>
+        </lrml:Obligation>
+      </lrml:SuborderList>
+    </lrml:PenaltyStatement>
+
+    <lrml:PenaltyStatement key="pen_hunting_2">
+      <lrml:SuborderList>
+        <lrml:Obligation>
+          <ruleml:Atom>
+            <ruleml:Rel iri=":max_imprisonment_days"/>
+            <ruleml:Var>Days</ruleml:Var>
+            <ruleml:Ind>365</ruleml:Ind>
+          </ruleml:Atom>
+        </lrml:Obligation>
+      </lrml:SuborderList>
+    </lrml:PenaltyStatement>
+
+    <lrml:PenaltyStatement key="pen_hunting_3">
+      <lrml:SuborderList>
+        <lrml:Obligation>
+          <ruleml:Atom>
+            <ruleml:Rel iri=":max_imprisonment_days"/>
+            <ruleml:Var>Days</ruleml:Var>
+            <ruleml:Ind>730</ruleml:Ind>
+          </ruleml:Atom>
+        </lrml:Obligation>
+      </lrml:SuborderList>
+    </lrml:PenaltyStatement>
+
+    <lrml:PenaltyStatement key="pen_hunting_4">
+      <lrml:SuborderList>
+        <lrml:Obligation>
+          <ruleml:Atom>
+            <ruleml:Rel iri=":max_imprisonment_days"/>
+            <ruleml:Var>Days</ruleml:Var>
+            <ruleml:Ind>1095</ruleml:Ind>
+          </ruleml:Atom>
+        </lrml:Obligation>
+      </lrml:SuborderList>
+    </lrml:PenaltyStatement>
+
+    <lrml:PenaltyStatement key="pen_fishing_1">
+      <lrml:SuborderList>
+        <lrml:Obligation>
+          <ruleml:Atom>
+            <ruleml:Rel iri=":max_imprisonment_days"/>
+            <ruleml:Var>Days</ruleml:Var>
+            <ruleml:Ind>180</ruleml:Ind>
+          </ruleml:Atom>
+        </lrml:Obligation>
+      </lrml:SuborderList>
+    </lrml:PenaltyStatement>
+
+    <lrml:PenaltyStatement key="pen_fishing_2">
+      <lrml:SuborderList>
+        <lrml:Obligation>
+          <ruleml:Atom>
+            <ruleml:Rel iri=":max_imprisonment_days"/>
+            <ruleml:Var>Days</ruleml:Var>
+            <ruleml:Ind>1095</ruleml:Ind>
+          </ruleml:Atom>
+        </lrml:Obligation>
+      </lrml:SuborderList>
+    </lrml:PenaltyStatement>
+
+    <lrml:PenaltyStatement key="pen_fishing_3">
+      <lrml:SuborderList>
+        <lrml:Obligation>
+          <ruleml:Atom>
+            <ruleml:Rel iri=":max_imprisonment_days"/>
+            <ruleml:Var>Days</ruleml:Var>
+            <ruleml:Ind>1095</ruleml:Ind>
+          </ruleml:Atom>
+        </lrml:Obligation>
+      </lrml:SuborderList>
+    </lrml:PenaltyStatement>
+
+    <lrml:ReparationStatement key="rep_hunting_1">
+      <lrml:Reparation>
+        <lrml:appliesPenalty keyref="#pen_hunting_1"/>
+        <lrml:toPrescriptiveStatement keyref="#ps_hunting_1"/>
+      </lrml:Reparation>
+    </lrml:ReparationStatement>
+
+    <lrml:ReparationStatement key="rep_hunting_2">
+      <lrml:Reparation>
+        <lrml:appliesPenalty keyref="#pen_hunting_2"/>
+        <lrml:toPrescriptiveStatement keyref="#ps_hunting_2"/>
+      </lrml:Reparation>
+    </lrml:ReparationStatement>
+
+    <lrml:ReparationStatement key="rep_hunting_3">
+      <lrml:Reparation>
+        <lrml:appliesPenalty keyref="#pen_hunting_3"/>
+        <lrml:toPrescriptiveStatement keyref="#ps_hunting_3"/>
+      </lrml:Reparation>
+    </lrml:ReparationStatement>
+
+    <lrml:ReparationStatement key="rep_hunting_4">
+      <lrml:Reparation>
+        <lrml:appliesPenalty keyref="#pen_hunting_4"/>
+        <lrml:toPrescriptiveStatement keyref="#ps_hunting_4"/>
+      </lrml:Reparation>
+    </lrml:ReparationStatement>
+
+    <lrml:ReparationStatement key="rep_fishing_1">
+      <lrml:Reparation>
+        <lrml:appliesPenalty keyref="#pen_fishing_1"/>
+        <lrml:toPrescriptiveStatement keyref="#ps_fishing_1"/>
+      </lrml:Reparation>
+    </lrml:ReparationStatement>
+
+    <lrml:ReparationStatement key="rep_fishing_2">
+      <lrml:Reparation>
+        <lrml:appliesPenalty keyref="#pen_fishing_2"/>
+        <lrml:toPrescriptiveStatement keyref="#ps_fishing_2"/>
+      </lrml:Reparation>
+    </lrml:ReparationStatement>
+
+    <lrml:ReparationStatement key="rep_fishing_3">
+      <lrml:Reparation>
+        <lrml:appliesPenalty keyref="#pen_fishing_3"/>
+        <lrml:toPrescriptiveStatement keyref="#ps_fishing_3"/>
+      </lrml:Reparation>
+    </lrml:ReparationStatement>
+
+    <!-- Defeat hierarchy: heavier-penalty paragraphs override lighter ones
+         when their conditions are simultaneously satisfied. -->
+    <lrml:OverrideStatement key="ov_hunting_3_over_2">
+      <lrml:Override under="#ps_hunting_3" over="#ps_hunting_2"/>
+    </lrml:OverrideStatement>
+    <lrml:OverrideStatement key="ov_hunting_2_over_1">
+      <lrml:Override under="#ps_hunting_2" over="#ps_hunting_1"/>
+    </lrml:OverrideStatement>
+    <lrml:OverrideStatement key="ov_hunting_4_over_1">
+      <lrml:Override under="#ps_hunting_4" over="#ps_hunting_1"/>
+    </lrml:OverrideStatement>
+    <lrml:OverrideStatement key="ov_hunting_4_over_2">
+      <lrml:Override under="#ps_hunting_4" over="#ps_hunting_2"/>
+    </lrml:OverrideStatement>
+    <lrml:OverrideStatement key="ov_hunting_4_over_3">
+      <lrml:Override under="#ps_hunting_4" over="#ps_hunting_3"/>
+    </lrml:OverrideStatement>
+
+    <lrml:OverrideStatement key="ov_fishing_2_over_1">
+      <lrml:Override under="#ps_fishing_2" over="#ps_fishing_1"/>
+    </lrml:OverrideStatement>
+    <lrml:OverrideStatement key="ov_fishing_3_over_1">
+      <lrml:Override under="#ps_fishing_3" over="#ps_fishing_1"/>
+    </lrml:OverrideStatement>
+
+  </lrml:Statements>
+</lrml:LegalRuleML>

@@ -1,0 +1,22 @@
+# id;sud;brojPredmeta;tipKrivicnogDjela;clanKZ;saizvrsilastvo;zabranjenoSredstvo;lovostajIliZabranjeneVode;velikaKolicina;elektricnaStruja;agregat;sonda;pretvarac;prisutanUlov;kolicinaUlovaKg;oduzimanjePredmeta;ranijeOsudjivan;kaznaZatvoraMjeseci;kaznaZatvoraDani;radUJavnomInteresuCasovi;rokProvjereGodine;troskoviEur;vrstaPresude;uslovnaOsuda;brojOkrivljenih;brojSvjedoka;tudjeLoviste;krupnaDivljac;zasticenaVrsta;bezPosebneDozvole;masovnoUnistavanje;vatrenoOruzje;lovackiPsi;bezOruznogLista;bezDozvoleZaLov;odstreljenaDivljac;vrstaDivljaci;brojGrlaDivljaci;sticajDrugogDela
+0;Podgorici;K 314/17;nezakonit ribolov;326.2;da;da;ne;ne;da;da;da;da;da;8.5;da;ne;3;0;0;1;30;uslovna;Da;2;2;ne;ne;ne;ne;ne;ne;0;ne;ne;ne;;0;ne
+1;Podgorici;K 747/22;nezakonit ribolov;326.2;da;da;da;da;da;da;da;da;da;50.0;da;ne;3;0;0;2;30;uslovna;Da;2;0;ne;ne;ne;ne;ne;ne;0;ne;ne;ne;;0;ne
+2;Podgorici;K 333/15;nezakonit ribolov;326.2;da;da;ne;ne;da;da;da;ne;da;1.0;da;da;0;0;0;0;0;osudjujuca;Ne;2;7;ne;ne;ne;ne;ne;ne;0;ne;ne;ne;;0;ne
+3;Podgorici;K 346/13;nezakonit ribolov;326.2;da;da;ne;ne;da;da;da;ne;da;2.0;da;da;2;0;0;1;50;uslovna;Da;1;2;ne;ne;ne;ne;ne;ne;0;ne;ne;ne;;0;ne
+4;Baru;K 381/12;nezakonit ribolov;326.2;ne;da;ne;ne;da;da;da;ne;da;5.0;da;ne;0;60;0;0;60;uslovna;Da;1;4;ne;ne;ne;ne;ne;ne;0;ne;ne;ne;;0;ne
+5;Podgorici;K 345/17;nezakonit ribolov;326.2;da;da;da;ne;da;da;da;da;da;8.0;da;da;3;0;0;0;30;uslovna;Da;2;3;ne;ne;ne;ne;ne;ne;0;ne;ne;ne;;0;ne
+6;Podgorici;K 349/16;nezakonit ribolov;326.2;da;da;da;ne;da;da;da;da;da;1.0;da;da;0;30;0;0;0;uslovna;Da;2;3;ne;ne;ne;ne;ne;ne;0;ne;ne;ne;;0;ne
+7;Podgorici;K 421/17;nezakonit ribolov;326.2;da;da;da;da;da;da;da;da;da;30.0;da;da;4;0;240;0;30;osudjujuca;Ne;2;2;ne;ne;ne;ne;ne;ne;0;ne;ne;ne;;0;ne
+8;Cetinju;K 80/16;nezakonit ribolov;326.2;ne;da;ne;ne;da;da;da;da;da;10.0;ne;ne;0;30;0;0;50;uslovna;Da;1;3;ne;ne;ne;ne;ne;ne;0;ne;ne;ne;;0;ne
+9;Podgorici;K 420/16;nezakonit ribolov;326.2;da;da;da;ne;da;da;da;da;da;5.0;da;da;2;0;0;0;0;uslovna;Da;1;0;ne;ne;ne;ne;ne;ne;0;ne;ne;ne;;0;ne
+10;Podgorici;K 120/15;nezakonit ribolov;326.2;da;da;ne;ne;da;da;da;ne;da;0.0;da;ne;0;0;0;0;50;uslovna;Da;2;2;ne;ne;ne;ne;ne;ne;0;ne;ne;ne;;0;ne
+11;Podgorici;K 147/15;nezakonit ribolov;326.2;da;da;ne;da;da;da;da;da;da;20.0;da;ne;0;30;180;0;30;uslovna;Da;3;4;ne;ne;ne;ne;ne;ne;0;ne;ne;ne;;0;ne
+12;Podgorici;K 244/19;nezakonit ribolov;326.2;da;da;ne;ne;da;da;da;da;da;8.0;da;ne;3;0;0;0;30;uslovna;Da;2;4;ne;ne;ne;ne;ne;ne;0;ne;ne;ne;;0;ne
+13;Baru;K 211/18;nezakonit ribolov;326.2;da;da;ne;da;da;da;da;da;da;30.0;da;da;0;30;60;0;99;uslovna;Da;2;3;ne;ne;ne;ne;ne;ne;0;ne;ne;ne;;0;ne
+14;Žabljaku;K 17/13;nezakonit lov;325.1;da;ne;da;ne;ne;ne;ne;ne;ne;0.0;da;ne;4;0;0;2;30;uslovna;Da;3;3;ne;ne;ne;ne;ne;da;0;da;da;ne;divljač;0;da
+15;Podgorici;K 53/18;nezakonit lov;325.1;da;ne;da;ne;ne;ne;ne;ne;da;0.0;da;da;4;0;240;2;30;uslovna;Da;2;2;ne;ne;ne;ne;ne;da;0;da;da;da;ptice;7;da
+16;Kolašinu;K 65/20;nezakonit lov;325.1;ne;ne;da;ne;ne;ne;ne;ne;da;0.0;da;ne;2;0;0;1;30;uslovna;Da;1;0;ne;ne;ne;ne;ne;da;3;ne;ne;da;zec;1;ne
+17;Herceg Novom;K 92/21;nezakonit lov;325.1;ne;ne;da;ne;ne;ne;ne;ne;da;90.0;da;ne;5;0;0;2;30;uslovna;Da;1;2;ne;da;ne;ne;ne;da;1;ne;ne;da;divlja svinja;1;da
+18;Rožajama;K 108/15;nezakonit lov;325.1;da;ne;da;ne;ne;ne;ne;ne;ne;0.0;da;ne;4;0;0;1;50;uslovna;Da;2;0;ne;ne;ne;ne;ne;da;5;da;da;ne;zec;0;da
+19;Beranama;K 186/11;nezakonit lov;325.1;da;ne;da;ne;ne;ne;ne;ne;ne;0.0;da;ne;3;0;0;1;30;uslovna;Da;2;1;ne;ne;ne;ne;ne;da;3;ne;da;ne;divljač;0;ne
+20;Nikšiću;K 274/23;nezakonit lov;325.1;ne;ne;da;ne;ne;ne;ne;ne;da;0.0;ne;ne;0;0;0;0;0;odbijena;Ne;1;5;da;da;ne;ne;ne;da;0;ne;ne;da;divlja svinja;1;ne

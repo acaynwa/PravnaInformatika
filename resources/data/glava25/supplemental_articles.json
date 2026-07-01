@@ -1,0 +1,19 @@
+{
+  "articles": {
+    "art_23": {
+      "num": "Član 23",
+      "heading": "Izvršilaštvo i saizvršilaštvo",
+      "source": {
+        "label": "Paragraf Lex (ažurirano do 31.03.2021)",
+        "url": "https://www.paragraf.me/propisi-crnegore/krivicni-zakonik-crne-gore.html"
+      },
+      "paragraphs": [
+        {
+          "id": "art_23_para_2",
+          "num": "(2)",
+          "text": "Ako više lica, učestvovanjem u radnji izvršenja sa umišljajem ili iz nehata, zajednički izvrše krivično djelo, ili ostvarujući zajedničku odluku drugom radnjom sa umišljajem bitno doprinesu izvršenju krivičnog djela, svako od njih kazniće se kaznom propisanom za to djelo."
+        }
+      ]
+    }
+  }
+}

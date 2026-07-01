@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17 ../../schemas/akomantoso30.xsd">
+  <judgment>
+    <meta>
+      <identification source="#court">
+        <FRBRWork>
+          <FRBRauthor>OSNOVNI SUD U BERANAMA</FRBRauthor>
+          <FRBRdate date="2011-07-15">2011-07-15</FRBRdate>
+          <FRBRtitle>K 186/11</FRBRtitle>
+          <FRBRcountry>CG</FRBRcountry>
+        </FRBRWork>
+      </identification>
+      <references>
+        <TLCOrganization eId="court" href="/ontology/organization/OsnovniSud.Berane" showAs="Osnovni Sud u Beranama" />
+        <TLCOrganization eId="prosecutor_office" href="/ontology/organization/OsnovnoDrzavnoTuzilastvo.Berane" showAs="Osnovno državno tužilaštvo u Beranama" />
+        <TLCPerson eId="judge_person" href="/ontology/person/d-d" showAs="Dragan Dašić" />
+        <TLCPerson eId="clerk_person" href="/ontology/person/m-c" showAs="Mirjana Čukić" />
+        <TLCPerson eId="prosecutor_person" href="/ontology/person/s-a" showAs="Sujković Amra" />
+        <TLCPerson eId="defendant_1" href="/ontology/person/d-o" showAs="D. O." />
+        <TLCPerson eId="defendant_2" href="/ontology/person/b-n" showAs="B. N." />
+        <TLCRole eId="defendant" href="/ontology/role/defendant" showAs="Defendant" />
+        <TLCRole eId="judge" href="/ontology/role/judge" showAs="Judge" />
+        <TLCRole eId="clerk" href="/ontology/role/clerk" showAs="Clerk" />
+        <TLCRole eId="prosecutor" href="/ontology/role/prosecutor" showAs="Prosecutor" />
+      </references>
+    </meta>
+    <judgmentBody>
+      <introduction>
+        <p><organization id="court" refersTo="#court">Osnovni Sud u Beranama</organization></p>
+        <p>15. Jul 2011</p>
+        <p class="subtitle">K. br. 186/11</p>
+        <p class="subtitle">U IME NARODA</p>
+        <p><organization id="court" refersTo="#court">Osnovni sud u Beranama</organization>, kao prvostepeni krivični, po Predsjedniku suda sudiji <party id="judge_person" refersTo="#judge_person" as="#judge">Draganu Dašiću</party>, kao sudiji pojedincu, uz sudjelovanje <party id="clerk_person" refersTo="#clerk_person" as="#clerk">Mirjane Čukić</party>, kao zapisničara, u krivičnom predmetu protiv okrivljenih <party id="defendant_1" refersTo="#defendant_1" as="#defendant">D. O.</party> i <party id="defendant_2" refersTo="#defendant_2" as="#defendant">B. N.</party>, oba iz B., zbog krivičnog djela nezakonit lov iz <ref href="/krivicni#art_325_para_1">čl. 325 st. 1</ref> <ref href="/krivicni">Krivičnog zakonika Crne Gore</ref>, po optužnom predlogu Osnovnog državnog tužilaštva u Beranama, Kt. br. 134/2011 od 06.06.2011. godine, dana 15.07.2011. godine donio je i javno objavio</p>
+      </introduction>
+      <background>
+        <p class="subtitle">PRESUDU</p>
+        <p>Okrivljeni <party id="defendant_1" refersTo="#defendant_1" as="#defendant">D. O.</party>, državljanin Crne Gore, radnik, pismen, završio SSS, oženjen – otac maloljetnog djeteta, srednjeg imovnog stanja, neosuđivan.</p>
+        <p>Okrivljeni <party id="defendant_2" refersTo="#defendant_2" as="#defendant">B. N.</party>, državljanin Crne Gore, oženjen – otac dvoje djece, pismen, završio SSS, srednjeg imovnog stanja, neosuđivan.</p>
+      </background>
+      <decision>
+        <p>Krivi su</p>
+        <p>Što su dana 24.04.2011. godine, oko 10,30 časova, u lovištu „V.-R.“ kojom gazduje lovačka organizacija „I.“ iz B., za vrijeme lovostaja, bez odobrenja korisnika lovišta, lovili divljač, sa dvije lovačke puške, marke „Bajkal M153“ kal. 12/76 i „Bokerica“ kal. 16 mm i 3 (tri) lovačka psa, iako su znali da se shodno čl. 43 Zakona o divljači i lovstvu, kroz lovište ne smije kretati sa lovačkom puškom i lovačkim psima bez odobrenja korisnika lovišta i da je shodno čl. 66 st. 1 tač. 10 istog zakona zabranjeno loviti van lovne sezone.</p>
+        <p>- Čime su izvršili krivično djelo nezakonit lov iz <ref href="/krivicni#art_325_para_1">čl. 325 st. 1</ref> <ref href="/krivicni">Krivičnog zakonika Crne Gore</ref>.</p>
+        <p>Pa sud okrivljenog D. O., na osnovu navedenog zakonskog propisa, te primjenom čl. 32, 39 i 42, te <ref href="/krivicni#art_325_para_5">čl. 325 st. 5</ref> KZ CG, osuđuje</p>
+        <p>Na novčanu kaznu u iznosu od 400,00 (četiri stotine) eura, koju je dužan platiti u roku od 15 dana od dana pravosnažnosti presude.</p>
+        <p>Sud okrivljenom B. N., za izvršeno krivično djelo na osnovu navedenog zakonskog propisa, te primjenom čl. 32, 36, 42, 52, 53 i 54, te čl. 325 st. 5 KZ CG, izriče</p>
+        <p class="subtitle">USLOVNU OSUDU</p>
+        <p>Kojom mu utvrđuje kaznu zatvora u trajanju od 3 (tri) mjeseca i istovremeno određuje da se ista neće izvršiti ako okrivljeni za vrijeme od 1 (jedne) godine, od dana pravosnažnosti presude, ne učini novo krivično djelo.</p>
+        <p>Na osnovu čl. 66 i 75 st. 1 i 3, te <ref href="/krivicni#art_325_para_5">čl. 325 st. 5</ref> KZ CG, okrivljenima se izriče</p>
+        <p class="subtitle">MJERA BEZBJEDNOSTI</p>
+        <p>Oduzimanje puške marke „Bajkal M153“ kal. 12/76 od okrivljenog D. O. i puške marke „Bokerica“ kal. 16 mm od okrivljenog B. N., kao predmeta izvršenja krivičnog djela.</p>
+        <p>Troškova krivičnog postupka nije bilo, dok se okrivljeni obavezuju da na ime paušala plate sudu iznos od po 30,00 (trideset) evra.</p>
+      </decision>
+      <arguments>
+        <p class="subtitle">Obrazloženje</p>
+        <p>Osnovno državno tužilaštvo u Beranama, optužnim predlogom Kt. br. 134/2011 od 06.06.2011. godine, optužilo je D. O. i B. N. zbog krivičnog djela nezakonit lov iz čl. 325 st. 1 Krivičnog zakonika Crne Gore.</p>
+        <p>Okrivljeni D. O. je u svojoj odbrani naveo da nije počinio krivično djelo, već da je dana 23.04.2011. godine uzeo pušku marke „Bajkal M153“ za koju ima urednu dozvolu i sa kolegom B. N. otišao u njegov stan, gdje su prespavali, da su poveli tri lovačka kera. U završnoj riječi je izjavio da se ne osjeća krivim jer predmetnog dana nije bio u lovu.</p>
+        <p>Okrivljeni B. N. je u svojoj odbrani naveo da nije počinio krivično djelo, da se ne bavi aktivno lovom i da nije polagao lovački ispit, te da je u potvrdi o oduzimanju greška jer puška „Bokerica“ pripada njegovom ocu.</p>
+        <p>Sud je u dokaznom postupku saslušao svjedoka B. M. (lovočuvara Lovačke organizacije „I.“), pročitao obavještenje Lovačkog saveza Crne Gore, potvrde o privremeno oduzetim predmetima, izvod iz kaznene evidencije.</p>
+        <p>Svjedok B. M. je naveo da je dana 24.04.2011. godine, oko 10,30 časova, zaustavio vozilo kojim je upravljao B. N., u kome je bio i D. O., te da je u gepeku vozila pronašao tri lovačka kera, a na zadnjem sjedištu dvije puške – „Bokerica“ i jednu sa pet metaka. Naveo je da na njegovo pitanje da li znaju da je zabranjeno kretanje kroz lovište sa puškom i kerovima, okrivljeni su odgovorili da znaju.</p>
+        <p>Sud je stao na stanovište da su činjenice iz činjeničnog opisa izreke presude u svemu dokazane i da su okrivljeni izvršili krivično djelo nezakonit lov iz čl. 325 st. 1 KZ. Za sud nije prihvatljiva odbrana okrivljenih da predmetnog dana nisu bili u lovu, jer su se u autu nalazila tri lovačka psa i dvije lovačke puške.</p>
+        <p>Od olakšavajućih okolnosti na strani D. O. sud je cijenio da se radi o mladom čovjeku, oženjenom – ocu jednog djeteta, koji do sada nije osuđivan, dok otežavajućih okolnosti nije bilo, pa mu je sud izrekao novčanu kaznu u iznosu od 400,00 eura. Na strani B. N. sud je cijenio iste olakšavajuće okolnosti, pa mu je izrekao uslovnu osudu.</p>
+        <p><organization id="court" refersTo="#court">OSNOVNI SUD U BERANAMA</organization>, dana 15.07.2011. godine</p>
+      </arguments>
+    </judgmentBody>
+    <conclusions>
+        <p>PRAVNA POUKA: Protiv ove presude nezadovoljna stranka ima pravo žalbe u roku od 8 (osam) dana od dana prijema iste presude Višem sudu u Bijelom Polju, a preko ovog suda.</p>
+    </conclusions>
+  </judgment>
+</akomaNtoso>

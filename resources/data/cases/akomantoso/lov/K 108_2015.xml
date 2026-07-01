@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17 ../../schemas/akomantoso30.xsd">
+  <judgment>
+    <meta>
+      <identification source="#court">
+        <FRBRWork>
+          <FRBRauthor>OSNOVNI SUD U ROŽAJAMA</FRBRauthor>
+          <FRBRdate date="2015-09-14">2015-09-14</FRBRdate>
+          <FRBRtitle>K 108/15</FRBRtitle>
+          <FRBRcountry>CG</FRBRcountry>
+        </FRBRWork>
+      </identification>
+      <references>
+        <TLCOrganization eId="court" href="/ontology/organization/OsnovniSud.Rozaje" showAs="Osnovni Sud u Rožajama" />
+        <TLCOrganization eId="prosecutor_office" href="/ontology/organization/OsnovnoDrzavnoTuzilastvo.Rozaje" showAs="Osnovno državno tužilaštvo u Rožajama" />
+        <TLCPerson eId="judge_person" href="/ontology/person/c-z" showAs="Camić Zahit" />
+        <TLCPerson eId="clerk_person" href="/ontology/person/b-a" showAs="Burdžović Adisa" />
+        <TLCPerson eId="prosecutor_person" href="/ontology/person/k-h" showAs="Kalač Hajran" />
+        <TLCPerson eId="defendant_1" href="/ontology/person/f-r" showAs="F. R." />
+        <TLCPerson eId="defendant_2" href="/ontology/person/r-f" showAs="R. F." />
+        <TLCRole eId="defendant" href="/ontology/role/defendant" showAs="Defendant" />
+        <TLCRole eId="judge" href="/ontology/role/judge" showAs="Judge" />
+        <TLCRole eId="clerk" href="/ontology/role/clerk" showAs="Clerk" />
+        <TLCRole eId="prosecutor" href="/ontology/role/prosecutor" showAs="Prosecutor" />
+      </references>
+    </meta>
+    <judgmentBody>
+      <introduction>
+        <p><organization id="court" refersTo="#court">Osnovni Sud u Rožajama</organization></p>
+        <p>14. Septembar 2015</p>
+        <p class="subtitle">K. br. 108/15</p>
+        <p class="subtitle">U IME CRNE GORE</p>
+        <p><organization id="court" refersTo="#court">OSNOVNI SUD U ROŽAJAMA</organization> i to Predsjednik suda <party id="judge_person" refersTo="#judge_person" as="#judge">Camić Zahit</party>, kao sudija pojedinac, sa zapisničarem <party id="clerk_person" refersTo="#clerk_person" as="#clerk">Adisom Burdžović</party>, odlučujući po optužnom predlogu Osnovnog Državnog Tužilaštva iz Rožaja Kt. br. 163/15 od 04.09.2015. godine, protiv okrivljenih <party id="defendant_1" refersTo="#defendant_1" as="#defendant">F. R.</party> i <party id="defendant_2" refersTo="#defendant_2" as="#defendant">R. F.</party> iz R. zbog krivičnih djela nedozvoljeno držanje oružja i eksplozivnih materija iz čl. 403 st. 1 i nezakonit lov iz <ref href="/krivicni#art_325_para_1">čl. 325 st. 1</ref> <ref href="/krivicni">Krivičnog Zakonika Crne Gore</ref>, dana 14.09.2015. godine donio je i javno objavio</p>
+      </introduction>
+      <background>
+        <p class="subtitle">PRESUDU</p>
+        <p>Okrivljeni <party id="defendant_1" refersTo="#defendant_1" as="#defendant">F. R.</party>, državljanin Crne Gore, pismen, završio osnovnu školu, nezaposlen, oženjen, otac dvoje maloljetne djece, siromašnog imovnog stanja, neosuđivan.</p>
+        <p>Okrivljeni <party id="defendant_2" refersTo="#defendant_2" as="#defendant">R. F.</party>, državljanin Crne Gore, pismen, završio osnovnu školu, nezaposlen, neoženjen, siromašnog imovnog stanja, neosuđivan.</p>
+      </background>
+      <decision>
+        <p>Krivi su</p>
+        <p>Što su 02.09.2015. i 03.09.2015. godine, u uračunljivom stanju, neovlašćeno nosili od sela Balotiće do mjesta „Žlijeb“, Opština Rožaje, protivno odredbama Zakona o oružju, lovačke puške marke „IŽ“ kal. 12 mm i ručno pravljenu pušku tzv. „Kratež“ kal. 20 mm (F. R.), te lovačku pušku „Zastava ARMS“ model M80 kal. 12 mm (R. F.); te istih dana u mjestu „Žlijeb“, u lovištu lovačkog udruženja, lovili divljač za vrijeme lovostaja i bez dozvole za lov, protivno odredbama čl. 36 st. 2 tač. 1 alineja 6, st. 3 tač. 1 alineja 3, i čl. 61 st. 1 Zakona o divljači i lovstvu, sa lovačkim kerovima i pomenutim oružjem, sa namjerom da love zečeve i lisice.</p>
+        <p>- čime su izvršili krivično djelo nedozvoljeno držanje oružja i eksplozivnih materija iz čl. 403 st. 1 KZ CG i krivično djelo nezakonit lov iz <ref href="/krivicni#art_325_para_1">čl. 325 st. 1</ref> <ref href="/krivicni">Krivičnog zakonika Crne Gore</ref>.</p>
+        <p>Pa im sud na osnovu pomenutih zakonskih propisa, primjenom čl. 3, 4, 13, 15, 32 i 36 KZ utvrđuje: za krivično djelo iz čl. 403 st. 1 KZ kaznu zatvora u trajanju od po 3 (tri) mjeseca, za krivično djelo iz čl. 325 st. 1 KZ kaznu zatvora u trajanju od po 45 (četrdesetpet) dana. Primjenom čl. 48, 52, 53, 54, 66 i 75 KZ izriče</p>
+        <p class="subtitle">USLOVNU OSUDU</p>
+        <p>Kojom im utvrđuje jedinstvenu kaznu zatvora u trajanju od po 4 (četiri) mjeseca i istovremeno određuje da se ista neće izvršiti ukoliko osuđeni u roku od 1 (jedne) godine od pravosnažnosti presude ne učine novo krivično djelo.</p>
+        <p>Da plate u korist budžetskih sredstava na ime troškova krivičnog postupka – paušala iznos od po 50 eura.</p>
+        <p>I izriče se</p>
+        <p class="subtitle">MJERA BEZBJEDNOSTI</p>
+        <p>Od okrivljenog F. R. oduzima se lovačka puška „IŽ“ fab. broja 12216 kal. 12 mm i ručno pravljena puška tzv. „Kratež“ kal. 20 mm, a od okrivljenog R. F. lovačka puška „Zastava ARMS“ model M80 fab. broja 68372 kal. 12 mm, kao predmeti krivičnog djela.</p>
+      </decision>
+      <arguments>
+        <p class="subtitle">Obrazloženje</p>
+        <p>ODT iz Rožaja podnio je optužni predlog Kt. br. 163/15 od 04.09.2015. godine protiv okrivljenih F. R. i R. F. zbog krivičnih djela nedozvoljeno držanje oružja i eksplozivnih materija iz čl. 403 st. 1 i nezakonit lov iz čl. 325 st. 1 KZ CG.</p>
+        <p>Okrivljeni F. R. i R. F. su na glavnom pretresu izjavili da priznaju izvršenje krivičnih djela i krivicu. Naveli su da su pomenutih dana vozilom „Suzuki“ pošli u mjesto „Žlijeb“ gdje su pustili kerove da gone divljač, da su spavali u katunu, te da su u jutarnjim časovima pošli da vide da li su kerovi pronašli divljač, noseći sa sobom lovačke puške.</p>
+        <p>Sud je izveo dokaze: uvid u oružne listove, foto dokumentaciju OB Rožaje, uvjerenje o položenom lovačkom ispitu, lovne karte, potvrde o privremeno oduzetim predmetima, obavještenje lovačkog društva Hajla, i izvode iz kaznene evidencije.</p>
+        <p>Iz priznanja okrivljenih i izvedenih dokaza proizilazi da su okrivljeni neovlašćeno nosili vatreno oružje na javnom mjestu, protivno odredbama Zakona o oružju, te da su u lovištu lovačkog udruženja za vrijeme lovostaja i bez dozvole za lov, pošli sa lovačkim kerovima i oružjem u namjeri da love. Da je u pomenute dane lov bio zabranjen, proizilazi iz obavještenja lovačkog društva Hajla.</p>
+        <p>Pravnom ocjenom sud je našao da su u radnjama okrivljenih sadržani svi bitni elementi krivičnog djela nedozvoljeno držanje oružja i eksplozivnih materija iz čl. 403 st. 1 KZ CG i krivičnog djela nezakonit lov iz čl. 325 st. 1 KZ CG.</p>
+        <p>Prilikom izricanja uslovne osude sud je imao u vidu ličnost izvršilaca, njihovo potpuno priznanje i kajanje, lične i porodične prilike, te neosuđivanost, pa je primjenom čl. 48 KZ CG utvrdio jedinstvenu kaznu zatvora u trajanju od po 4 mjeseca i odložio njihovo izvršenje u roku od jedne godine.</p>
+        <p><organization id="court" refersTo="#court">OSNOVNI SUD U ROŽAJAMA</organization>, dana 14.09.2015. godine</p>
+      </arguments>
+    </judgmentBody>
+    <conclusions>
+        <p>PRAVNA POUKA: Protiv ove presude može se izjaviti žalba u roku od 8 dana od dana prijema iste Višem sudu u Bijelom Polju, a preko ovog suda.</p>
+    </conclusions>
+  </judgment>
+</akomaNtoso>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xsi:schemaLocation="https://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd">
+  <act id="krivicni" name="Krivični zakonik Crne Gore">
+    <meta>
+      <identification source="#p_info">
+        <FRBRWork>
+          <FRBRthis value="/akn/cg/act/criminal-code/chapter-25/!main"/>
+          <FRBRuri value="/akn/cg/act/criminal-code"/>
+          <FRBRdate date="2023-12-19" name="Generation"/>
+          <FRBRauthor href="#skupstina" as="#author"/>
+          <FRBRcountry value="cg"/>
+          <FRBRsubtype value="criminal-code"/>
+          <FRBRnumber value="110/2023"/>
+          <FRBRname value="Krivični zakonik Crne Gore - Glava dvadeset peta"/>
+          <FRBRprescriptive value="true"/>
+          <FRBRauthoritative value="true"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/cg/act/criminal-code/chapter-25/cg@2023/!main"/>
+          <FRBRuri value="/akn/cg/act/criminal-code/cg@2023"/>
+          <FRBRdate date="2023-12-19" name="Generation"/>
+          <FRBRauthor href="#skupstina" as="#editor"/>
+          <FRBRlanguage language="cg"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/cg/act/criminal-code/chapter-25/cg@2023/!main.xml"/>
+          <FRBRuri value="/akn/cg/act/criminal-code/chapter-25/cg@2023/!main.akn"/>
+          <FRBRdate date="2023-12-19" name="Generation"/>
+          <FRBRauthor href="#p_info" as="#generator"/>
+          <FRBRformat value="xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication name="sl" date="2008-08-11" showAs="Službeni list Crne Gore" number="76/2008"/>
+      <classification source="#p_info">
+        <keyword value="criminal-law" showAs="Krivično pravo" dictionary="cg"/>
+        <keyword value="environmental-crime" showAs="Krivična djela protiv životne sredine i uređenja prostora" dictionary="cg"/>
+      </classification>
+      <references source="#p_info">
+        <TLCRole eId="author" href="/akn/cg/ontology/role/author" showAs="Author"/>
+        <TLCRole eId="editor" href="/akn/cg/ontology/role/editor" showAs="Editor"/>
+        <TLCRole eId="generator" href="/akn/cg/ontology/role/generator" showAs="Generator"/>
+        <TLCOrganization eId="skupstina" href="/ontology/organization/cg/skupstina" showAs="Skupština Crne Gore"/>
+        <TLCOrganization eId="p_info" href="/ontology/organization/cg/p_info" showAs="Pravna Informatika Tim 1"/>
+      </references>
+    </meta>
+
+    <body>
+      <heading>Krivični zakonik Crne Gore</heading>
+      <chapter eId="chp_25">
+        <num>GLAVA DVADESET PETA</num>
+        <heading>KRIVIČNA DJELA PROTIV ŽIVOTNE SREDINE I UREĐENJA PROSTORA</heading>
+
+        <section eId="chp_25_sec_1">
+          <article eId="art_325">
+            <heading>Nezakonit lov</heading>
+            <num>Član 325</num>
+
+            <paragraph eId="art_325_para_1">
+              <num>(1)</num>
+              <content eId="art_325_para_1_content">
+                <p>Ko lovi divljač za vrijeme lovostaja ili na području gdje je lov zabranjen, kazniće se novčanom kaznom ili zatvorom do šest mjeseci.</p>
+              </content>
+            </paragraph>
+
+            <paragraph eId="art_325_para_2">
+              <num>(2)</num>
+              <content eId="art_325_para_2_content">
+                <p>Ko neovlašćeno lovi na tuđem lovištu i ubije ili rani divljač ili je uhvati živu, kazniće se novčanom kaznom ili zatvorom do jedne godine.</p>
+              </content>
+            </paragraph>
+
+            <paragraph eId="art_325_para_3">
+              <num>(3)</num>
+              <content eId="art_325_para_3_content">
+                <p>Ako je djelo iz stava 2 ovog člana učinjeno u odnosu na krupnu divljač, učinilac će se kazniti novčanom kaznom ili zatvorom do dvije godine.</p>
+              </content>
+            </paragraph>
+
+            <paragraph eId="art_325_para_4">
+              <num>(4)</num>
+              <content eId="art_325_para_4_content">
+                <p>Ko lovi divljač čiji je lov zabranjen ili ko lovi bez posebne dozvole određenu vrstu divljači za čiji je lov potrebna takva dozvola ili ko lovi na način ili sredstvima kojima se divljač masovno uništava, kazniće se zatvorom do tri godine.</p>
+              </content>
+            </paragraph>
+
+            <paragraph eId="art_325_para_5">
+              <num>(5)</num>
+              <content eId="art_325_para_5_content">
+                <p>Ulovljena divljač i sredstva za lov oduzeće se.</p>
+              </content>
+            </paragraph>
+          </article>
+
+          <article eId="art_326">
+            <heading>Nezakonit ribolov</heading>
+            <num>Član 326</num>
+
+            <paragraph eId="art_326_para_1">
+              <num>(1)</num>
+              <content eId="art_326_para_1_content">
+                <p>Ko lovi ribu ili druge vodene životinje za vrijeme lovostaja ili u vodama u kojima je lov zabranjen, kazniće se novčanom kaznom ili zatvorom do šest mjeseci.</p>
+              </content>
+            </paragraph>
+
+            <paragraph eId="art_326_para_2">
+              <num>(2)</num>
+              <content eId="art_326_para_2_content">
+                <p>Ko lovi ribu ili druge vodene životinje eksplozivom, električnom strujom, otrovom, sredstvima za omamljivanje ili na način štetan za razmnožavanje tih životinja ili kojim se te životinje masovno uništavaju, kazniće se zatvorom do tri godine.</p>
+              </content>
+            </paragraph>
+
+            <paragraph eId="art_326_para_3">
+              <num>(3)</num>
+              <content eId="art_326_para_3_content">
+                <p>Kaznom iz stava 2 ovog člana kazniće se i ko lovi ribu ili druge vodene životinje veće biološke vrijednosti ili u većoj količini ili pri lovu uništi veću količinu riba ili drugih vodenih životinja.</p>
+              </content>
+            </paragraph>
+
+            <paragraph eId="art_326_para_4">
+              <num>(4)</num>
+              <content eId="art_326_para_4_content">
+                <p>Ulov i sredstva za ribolov oduzeće se.</p>
+              </content>
+            </paragraph>
+          </article>
+        </section>
+      </chapter>
+    </body>
+  </act>
+</akomaNtoso>

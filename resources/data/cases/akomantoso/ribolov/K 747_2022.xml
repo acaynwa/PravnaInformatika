@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17 ../../schemas/akomantoso30.xsd">
+  <judgment>
+    <meta>
+      <identification source="#court">
+        <FRBRWork>
+          <FRBRauthor>OSNOVNI SUD U PODGORICI</FRBRauthor>
+          <FRBRdate date="2022-12-30">2022-12-30</FRBRdate>
+          <FRBRtitle>K 747/22</FRBRtitle>
+          <FRBRcountry>CG</FRBRcountry>
+        </FRBRWork>
+      </identification>
+      <references>
+        <TLCOrganization eId="court" href="/ontology/organization/OsnovniSud.Podgorica" showAs="Osnovni Sud u Podgorici" />
+        <TLCOrganization eId="prosecutor_office" href="/ontology/organization/OsnovnoDrzavnoTuzilastvo.Podgorica" showAs="Osnovno državno tužilaštvo u Podgorici" />
+        <TLCPerson eId="judge_person" href="/ontology/person/rade-cetkovic" showAs="Rade Ćetković" />
+        <TLCPerson eId="clerk_person" href="/ontology/person/dejane-harovic" showAs="Dejane Harović" />
+        <TLCPerson eId="defendant_1" href="/ontology/person/b-n" showAs="B. N." />
+        <TLCPerson eId="defendant_2" href="/ontology/person/m-dj" showAs="M. Đ." />
+        <TLCRole eId="defendant" href="/ontology/role/defendant" showAs="Defendant" />
+        <TLCRole eId="judge" href="/ontology/role/judge" showAs="Judge" />
+        <TLCRole eId="clerk" href="/ontology/role/clerk" showAs="Clerk" />
+        <TLCRole eId="prosecutor" href="/ontology/role/prosecutor" showAs="Prosecutor" />
+        <TLCRole eId="defense_counsel" href="/ontology/role/defense_counsel" showAs="Defense Counsel" />
+      </references>
+    </meta>
+    <judgmentBody>
+      <introduction>
+        <p><organization id="court" refersTo="#court">Osnovni Sud u Podgorici</organization></p>
+        <p>30. Decembar 2022</p>
+        <p>K. br. 747/22</p>
+        <p class="subtitle">U IME CRNE GORE</p>
+        <p>Osnovni sud u Podgorici, sudija <party id="judge_person" refersTo="#judge_person" as="#judge">Rade Ćetković</party>, uz učešće zapisničarke <party id="clerk_person" refersTo="#clerk_person" as="#clerk">Dejane Harović</party>, u krivičnom postupku protiv okrivljenih <party id="defendant_1" refersTo="#defendant_1" as="#defendant">B. N.</party> i <party id="defendant_2" refersTo="#defendant_2" as="#defendant">M. Đ.</party>, zbog krivčnog djela nezakonit ribolov iz čl. 326 stav 2 u vezi sa članom <ref href="/krivicni#art_23_para_2">čl. 23</ref> st.</p>
+        <p>2 <ref href="/krivicni">Krivičnog zakonika Crne Gore</ref>, nakon javnog glavnog pretresa održanog dana 30.12.2022. godine, u prisustvu državne tužiteljka Biljane Pavličić, okrivljenog <party id="defendant_1" refersTo="#defendant_1" as="#defendant">B. N.</party>, okrivljenog <party id="defendant_2" refersTo="#defendant_2" as="#defendant">M. Đ.</party> i njegovog branioca adv. H. G. iz Podgorice, istog dana izrekao je i objavio</p>
+      </introduction>
+      <background>
+        <p class="subtitle">PRESUDU</p>
+        <p>Okrivljeni: <party id="defendant_1" refersTo="#defendant_1" as="#defendant">B. N.</party>, JMB ..., od oca B. i majke V., rođene S., rođen ... godine u Podgorici, sa prebivalištem u</p>
+        <p>Opštini T. – selo V., državljanin Crne Gore, razumije crnogorski jezik, koji je i njegov jezik, poljoprivrednik, oženjen, otac troje djece, pismen, završio osnovnu školu, lošeg imovnog stanja, neosuđivan, protiv kojeg se ne vodi postupak za drugo krivično djelo.</p>
+        <p>Okrivljeni: <party id="defendant_2" refersTo="#defendant_2" as="#defendant">M. Đ.</party>, JMB ..., sa nadimkom M., od oca Z. i majke B., rođene K., rođen ... godine u Podgorici, sa prebivalištem u Opštini T., selo V., državljanin Crne Gore, razumije crnogorski jezik, koji je i njegov jezik, vojnik po ugovoru, neoženjen, bez djece, pismen, završio srednju školu, lošeg imovnog stanja, neosuđivan, protiv kojeg se ne vodi postupak za drugo krivično djelo.</p>
+      </background>
+      <decision>
+        <p>Krivi su</p>
+        <p>Što su:</p>
+        <p>Dana 10. aprila 2021. godine, u vremenu od 07.00 do 1G.00 časova, na Skadarskom jezeru, na teritoriji</p>
+        <p>Glavnog grada Podgorice, zajedno i po prethodnom dogovoru, svjesni svog djela, čije su izvršenje htjeli i znajući da je isto zabranjeno, suprotno tački 46 alineja 4 Naredbe o ribolovnim zabranima, lovostaju i minimalnim veličinama riba i drugih vodenih organizama ispod kojih je zabranjen ulov ("Službeni list CG" br.</p>
+        <p>69/2021 i 30/2022.), na ribolovnom području "Skadarsko jezero", na kojem je utvrđen lovostaj na šarana - krapa i ostale ciprinidne vrste od 15. marta do 15. maja, lovili ribu elektrouređajem-agregatom povezanim na akumulator, sredstvom štetnim za razmnožavanje i kojim se masovno uništavaju ribe i drugi vodeni organizmi, a čije korišćenje je, shodno članu 19 stav 1 tačka 3 i tačka 4 Zakona o slatkovodnom ribarstvu i akvakulturi ("Službeni list CG", br. 17/2018), zabranjeno, na način što je okrivljeni N. B. upravljao čamcem marke "VBM Yamaha" reg. oznaka ..., dok je okrivljeni Đ. M. lovio ribu agregatom, kojom prilikom je ulovio 50 kilograma ribe, vrste šaran, koju su zajedno sa ribolovnom opremom utovarili u prikolicu traktora, vlasništvo okrivljenog <party id="defendant_1" refersTo="#defendant_1" as="#defendant">B. N.</party>, da bi se potom kako bi izbjegli policijsku patrolu, uputili iz pravca Nizamski most u pravcu</p>
+        <p>Podhuma, kada su zaustavljeni i kontrolisani od strane policijskih službenika, koji su tom prilikom pronašli i oduzeli navedenu ribu i opremu za ribolov, - čime su izvršili krivično djelo nezakonit ribolov iz čl. 326 stav 2 u vezi sa članom 23 st. 2 <ref href="/krivicni">Krivičnog zakonika</ref></p>
+        <p>Crne Gore.</p>
+        <p>Pa im sud za navedeno krivično djelo primjenom čl. 4 st. 2, čl. 42 st. 1, čl. 52 st. 2, čl. 53 i čl. 54 <ref href="/krivicni">Krivičnog zakonika Crne Gore</ref>i čl. 226, čl. 229 i čl. 374 Zakonika o krivičnom postupku, izriče</p>
+        <p class="subtitle">USLOVNU OSUDU</p>
+        <p>Kojom im utvrđuje kazne zatvora u trajanju od po 3 (tri) mjeseca i istovremeno određuje da se one neće izvršiti, ako okrivljeni u roku od 2 (dvije) godine po pravosnažnosti presude ne učine novo krivično djelo.</p>
+        <p>Na osnovu člana 75 i člana 326 stav 4 <ref href="/krivicni">Krivičnog zakonika Crne Gore</ref> prema okrivljenima se izriče</p>
+        <p class="subtitle">MJERA BEZBJEDNOSTI</p>
+        <p class="subtitle">ODUZIMANJE PREDMETA</p>
+        <p>Oduzimaju se od okrivljenih ulov i sredstava za ribolov, i to 50 kilograma ribe vrste šaran, tri saka za ribu, električni pretvarač, dva akumulatora, VBM "Yamaha", drveno veslo, plastični rezervoar crvene боје torbica sa alatom i kablovima, kao predmeti upotrijebljeni u izvršenju krivičnog djela.</p>
+        <p>Obavezuju se okrivljeni da plate na ime troškova krivičnog postupka iznos od po 30,00 €, u roku od 15 dana po pravosnažnosti presude, pod prijetnjom izvršenja.</p>
+      </decision>
+      <arguments>
+        <p class="subtitle">Obrazloženje</p>
+        <p>Okrivljenima <party id="defendant_1" refersTo="#defendant_1" as="#defendant">B. N.</party>i <party id="defendant_2" refersTo="#defendant_2" as="#defendant">M. Đ.</party>je optužnim predlogom Osnovnog državnog tužilaštva u Podgorici Kt. br. 548/22 od</p>
+        <p>05.12.2022. godine stavljeno na teret krivično djelo nezakonit ribolov iz čl. 326 stav 2 u vezi sa članom 23 st. 2</p>
+        <p><ref href="/krivicni">Krivičnog zakonika Crne Gore</ref>. Državna tužiteljka je na glavnom pretresu izmijenila dispozitiv optužnog predloga na način kako je to predstavljeno u izreci presude, a u završnoj riječi je predložila sudu da okrivljene oglasi krivim i da ih osudi po zakonu.</p>
+        <p>Okrivljeni <party id="defendant_1" refersTo="#defendant_1" as="#defendant">B. N.</party>i <party id="defendant_2" refersTo="#defendant_2" as="#defendant">M. Đ.</party> su u odbrani datoj u izviđaju i na glavnom pretresa priznali izvršenje krivičnog djela koje im se stavlja na teret i krivicu, saglasno u bitnom navodeći da su dana 10.04.2022. godine od 07.00 do</p>
+        <p>1G.00 časova lovili ribu elektrouređajem-agregatom povezanim na akumulator, kojom prilikom su ulovili 50 kg ribe - šarana. Lovili su pomoću čamca sa motorom "Yamaha" kojim je upravljao <party id="defendant_1" refersTo="#defendant_1" as="#defendant">B. N.</party>, dok je okrivljeni M.</p>
+        <p>Đ. počeo da lovio ribu sondom. Nakon toga su primijetili da je policija u blizini, pa su čamac sa svim sredstvima za lov i ribolov gurnuli u žar koji se nalazio pri obali, u plićaku, nakon čega su otišli do kuće okrivljenog <party id="defendant_1" refersTo="#defendant_1" as="#defendant">B. N.</party>, gdje su ostavili vozilo, a uzeli traktor na kojem je bila prikačena prikolica, kojim su se drugim putem vratili na mjesto gdje su ostavili čamac sa sredstvima za lov i ribom- šaranom, koje su zatim utovarili na prikolicu i krenuli u pravcu kuće tako što su se uputili iz pravca mjesta Nizamski most u pravcu</p>
+        <p>Podhuma, gdje je okrivljenog <party id="defendant_1" refersTo="#defendant_1" as="#defendant">B. N.</party> zaustavila policija. Okrivljeni su znali da je na snazi zabran i da ne smiju loviti šarana, kao i da je zabranjeno loviti ribu elektrouređajem.</p>
+        <p>Uzimajući u obzir potpuna i jasna priznanja okrivljenih, koja u toku postupka nisu dovedena u sumnju, i cijeneći ih kao dokaz, sud primjenom čl. 458 st. 2 Zakonika o krivičnom postupku nije izvodio druge dokaze, osim izvoda iz registra kaznenih evidencija Ministarstva pravde ljudskih i manjinskih prava KE 1895/22 od</p>
+        <p>12.12.2022. godine i KE 1894/22 od 12.12.2022. godine na ime okrivljenih, od kojih zavisi vrsta i mjera krivičnih sankcija. Na taj način je tokom postupka nesumnjivo utvrđeno da su okrivljeni dana 10. aprila 2021. godine, u vremenu od 07.00 do 1G.00 časova, na Skadarskom jezeru, na teritoriji Glavnog grada Podgorice, zajedno i po prethodnom dogovoru, suprotno tački 46 alineja 4 Naredbe o ribolovnim zabranima, lovostaju i minimalnim veličinama riba i drugih vodenih organizama ispod kojih je zabranjen ulov ("Službeni list CG" br.</p>
+        <p>69/2021 i 30/2022.), na ribolovnom području "Skadarsko jezero", na kojem je utvrđen lovostaj na šarana - krapa i ostale ciprinidne vrste od 15. marta do 15. maja, lovili ribu elektrouređajem-agregatom povezanim na akumulator, sredstvom štetnim za razmnožavanje i kojim se masovno uništavaju ribe i drugi vodeni organizmi, a čije korišćenje je, shodno članu 19 stav 1 tačka 3 i tačka 4 Zakona o slatkovodnom ribarstvu i akvakulturi ("Službeni list CG", br. 17/2018), zabranjeno, na način što je okrivljeni <party id="defendant_1" refersTo="#defendant_1" as="#defendant">B. N.</party> upravljao čamcem marke "VBM Yamaha" reg. oznaka ..., dok je okrivljeni <party id="defendant_2" refersTo="#defendant_2" as="#defendant">M. Đ.</party> lovio ribu agregatom, kojom prilikom je ulovio 50 kilograma ribe, vrste šaran, koju su zajedno sa ribolovnom opremom utovarili u prikolicu traktora, vlasništvo okrivljenog <party id="defendant_1" refersTo="#defendant_1" as="#defendant">B. N.</party>, da bi se potom kako bi izbjegli policijsku patrolu, uputili iz pravca Nizamski most u pravcu</p>
+        <p>Podhuma, kada su zaustavljeni i kontrolisani od strane policijskih službenika, koji su tom prilikom pronašli i oduzeli navedenu ribu i opremu za ribolov.</p>
+        <p>* Članom 46 alineja 4 Naredbe o ribolovnim zabranima, lovostaju i minimalnim veličinama riba i drugih vodenih organizama ispod kojih je zabranjen ulov, propisano je da se u ribolovnim vodama Glavnog grada</p>
+        <p>Podgorica, opština Danilovgrad, Bar, Ulcinj i ribolovnom području "Skadarsko jezero" utvrđuje lovostaj na: šarana - krapa i ostale ciprinidne vrste od 15. marta do 15.maja.</p>
+        <p>Članom 19 stav 1 tačka 3 i tačka 4 Zakona o slatkovodnom ribarstvu i akvakulturi je predviđeno da je radi zaštite očuvanja riba i drugih vodenih organizama u ribolovnim vodama, ribolovnim područjima i ribolovnim гем та zabranjeno obavljati ribolov uz upotrebu osti, trokuke ili na način štetan za razmnožavanje i sa sredstvima kojima se masovno uništavaju ribe i drugi vodeni organizmi. Takođe, zabranjeno je loviti ribu i druge vodene organizme vatrenim oružjem, elektrouređajem, eksplozivnim napravama, podvodnom puškom i nagonom (hvatanje rukom, bacanjem kamena, razgonjenjem veslima, ograđivanjem ili građenjem).</p>
+        <p>Imajući u vidu da su okrivljeni lovili šarana dana 10.04.2021. godine, te da su to činili elektrouređajem, evidentno je da su prekršili citirane zakonske odredbe.</p>
+        <p>Cijeneći subjektivni odnos okrivljenih prema učinjenom djelu, sud nalazi da su okrivljeni postupajući na navedeni način, a kod činjenice da su ribu lovili izjednog čuna, svjesno zajednički djelovali, po prethodnom dogovoru, koji nesumnjivo proizilazi iz njihovih odbrana, preduzimajući u okviru tog dogovora radnje nužne za njegovu realizaciju, pa su djelo htjeli kao svoje, a samim tim i kao zajedničko, pri čemu su bili svjesni da vrše ribolov u vrijeme kada je to bilo zabranjeno i sa nedozvoljenim sredstvom elektrouređajem - agregatom povezanim akumulatorom - sredstvom štetnim za razmnožavanje kojim se masovno uništavaju ribe i drugi vodeni oganizmi, što su po ocijeni suda očigledno i htjeli. Time su u njihovim radnjama pored objektivnih ostvareni i subjektivni elementi bića krivičnog djela nezakonit ribolov iz <ref href="/krivicni#art_326_para_2">čl. 326 st. 2</ref> u vezi sa <ref href="/krivicni#art_23_para_2">čl. 23 st. 2</ref></p>
+        <p><ref href="/krivicni">Krivičnog zakonika Crne Gore</ref>.</p>
+        <p>Prilikom odlučivanja o krivičnoj sankciji okrivljenima <party id="defendant_1" refersTo="#defendant_1" as="#defendant">B. N.</party> i <party id="defendant_2" refersTo="#defendant_2" as="#defendant">M. Đ.</party>, sud je u smislu čl. 42 st. 1 <ref href="/krivicni">Krivičnog zakonika Crne Gore</ref>, cijenio sve okolnosti od kojih zavisi vrsta i mjera krivične sankcije, pa je od olakšavajućih okolnosti na strani oba okrivljena cijenio njihove lične prilike odnosno da je okrivljeni <party id="defendant_1" refersTo="#defendant_1" as="#defendant">B. N.</party> otac troje djece, a da su oba okrivljena lošeg imovnog stanja, njihovo držanje nakon učinjenog krivičnog djela izaženo kroz potpuno i jasno priznanje koje je doprinijelo bržem i efikasnijem okončanju krivičnog postupka te iskreno kajanje, kao i njihov raniji život, odnosno neosuđivanost, što je utvrđeno iz izvoda iz registra kaznenih evidencija Ministarstva pravde, ljudskih i manjinskih prava KE 1894/2022 i KE 1895/22, oba od 12.12.2022. godine, dok otežavajućih okolnosti nije bilo. Imajući u vidu navedene olakšavajuće okolnosti, sud je okrivljenima, shodno čl. 53 i čl. 54 <ref href="/krivicni">Krivičnog zakonika Crne Gore</ref>, izrekao uslovnu osudu kao u izreci presude, nalazeći da prema okrivljenima nije nužno primijeniti kaznu radi krivičnopravne zaštite, jer se može očekivati da će se i upozorenjem uz prijetnju kaznom zatvora u trajanju od tri mjeseca i rokom provjeravanja od dvije godine na okrivljene u dovoljnoj mjeri uticati da ubuduće ne vrše krivična djela. Time će se uspješno ostvariti svrha uslovne osude iz čl. 52 st. 2 <ref href="/krivicni">Krivičnog zakonika Crne Gore</ref>, a u okviru opšte svrhe propisivanja i izricanja krivičnih sankcija u smislu čl. 4 st. 2 <ref href="/krivicni">Krivičnog zakonika Crne Gore</ref>.</p>
+        <p>Na osnovu člana 75 i člana 326 stav 4 <ref href="/krivicni">Krivičnog zakonika Crne Gore</ref>, sud je okrivljenima izrekao mjeru bezbjednosti oduzimanje predmeta, ulova i sredstava za ribolov i to 50 kilograma ribe vrste šaran, tri saka za ribu, električnog pretvarača, dva akumulatora, VBM "Yamaha", drvenog vesla, plastičnog rezervoara crvene boje i torbice sa alatom i kablovima.</p>
+        <p>Kako su okrivljeni oglašeni krivima, sud ih je, shodno čl. 226 i čl. 229 Zakonika o krivičnom postupku obavezao da plate na ime paušalnih troškova iznos od po 30,00 €, koji je određen prema trajanju i složenosti postupka i imovnom stanju okrivljenih.</p>
+        <p>Na osnovu iznijetih razloga, primjenom čl. 374 Zakonika o krivičnom postupku, odlučeno je kao u izreci presude.</p>
+        <p><organization id="court" refersTo="#court">OSNOVNI SUD U PODGORICI</organization></p>
+        <p>Dana 30.12.2022. godine</p>
+        <p>ZAPISNIČARKASUDIJA</p>
+        <p><party id="clerk_person" refersTo="#clerk_person" as="#clerk">Dejane Harović</party> ,s.r. <party id="judge_person" refersTo="#judge_person" as="#judge">Rade Ćetković</party>,s.r.</p>
+      </arguments>
+    </judgmentBody>
+    <conclusions>
+        <p>PRAVNA POUKA: Protiv ove presude dozvoljena je žalba u roku od 8 dana od dana prijema prepisa iste, Višem sudu u Podgorici, a preko ovog suda.</p>
+        <p>ZTO. <party id="clerk_person" refersTo="#clerk_person" as="#clerk">Dejane Harović</party></p>
+        <p>ZAPISNIČARKASUDIJA</p>
+        <p>Dejana Harović <party id="judge_person" refersTo="#judge_person" as="#judge">Rade Ćetković</party></p>
+        <p>DN-a: Po primjerak presude dostaviti: - ODT Podgorica, - Okrivljenima, - Braniocu, - a/a.</p>
+        <p>Postupljeno dana ___ ____ __</p>
+        <p>Namještenik suda___ ____</p>
+        <p>| eS SSC lll _ _ _ _ ooo</p>
+    </conclusions>
+  </judgment>
+</akomaNtoso>

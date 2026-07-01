@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17 ../../schemas/akomantoso30.xsd">
+  <judgment>
+    <meta>
+      <identification source="#court">
+        <FRBRWork>
+          <FRBRauthor>OSNOVNI SUD U ŽABLJAKU</FRBRauthor>
+          <FRBRdate date="2013-07-24">2013-07-24</FRBRdate>
+          <FRBRtitle>K 17/13</FRBRtitle>
+          <FRBRcountry>CG</FRBRcountry>
+        </FRBRWork>
+      </identification>
+      <references>
+        <TLCOrganization eId="court" href="/ontology/organization/OsnovniSud.Zabljak" showAs="Osnovni Sud u Žabljaku" />
+        <TLCOrganization eId="prosecutor_office" href="/ontology/organization/OsnovnoDrzavnoTuzilastvo.Pljevlja" showAs="Osnovno državno tužilaštvo u Pljevljima" />
+        <TLCPerson eId="judge_person" href="/ontology/person/m-a" showAs="Andjelić Mihailo" />
+        <TLCPerson eId="clerk_person" href="/ontology/person/s-i" showAs="Šibalić Ikonija" />
+        <TLCPerson eId="prosecutor_person" href="/ontology/person/t-m" showAs="Tomčić Milivoje" />
+        <TLCPerson eId="defendant_1" href="/ontology/person/m-a-def" showAs="M. A." />
+        <TLCPerson eId="defendant_2" href="/ontology/person/v-s" showAs="V. S." />
+        <TLCPerson eId="defendant_3" href="/ontology/person/j-m" showAs="J. M." />
+        <TLCRole eId="defendant" href="/ontology/role/defendant" showAs="Defendant" />
+        <TLCRole eId="judge" href="/ontology/role/judge" showAs="Judge" />
+        <TLCRole eId="clerk" href="/ontology/role/clerk" showAs="Clerk" />
+        <TLCRole eId="prosecutor" href="/ontology/role/prosecutor" showAs="Prosecutor" />
+      </references>
+    </meta>
+    <judgmentBody>
+      <introduction>
+        <p><organization id="court" refersTo="#court">Osnovni Sud u Žabljaku</organization></p>
+        <p>24. Jul 2013</p>
+        <p class="subtitle">K. br. 17/13</p>
+        <p class="subtitle">U IME CRNE GORE</p>
+        <p><organization id="court" refersTo="#court">OSNOVNI SUD U ŽABLJAKU</organization>, kao prvostepeni krivični, po predsjedniku suda <party id="judge_person" refersTo="#judge_person" as="#judge">Andjelić Mihailu</party>, kao sudiji pojedincu, uz sudjelovanje <party id="clerk_person" refersTo="#clerk_person" as="#clerk">Šibalić Ikonije</party> kao zapisničara, u krivičnom predmetu protiv okrivljenih <party id="defendant_1" refersTo="#defendant_1" as="#defendant">M. A.</party>, <party id="defendant_2" refersTo="#defendant_2" as="#defendant">V. S.</party> i <party id="defendant_3" refersTo="#defendant_3" as="#defendant">J. M.</party>, zbog krivičnih djela nedozvoljeno držanje oružja i eksplozivnih materija iz čl. 403 st. 1 KZ u sticaju sa krivičnim djelom nezakonit lov iz <ref href="/krivicni#art_325_para_1">čl. 325 st. 1</ref> <ref href="/krivicni">Krivičnog zakonika</ref>, po optužnom predlogu ODT iz Pljevalja Kt. br. 153/13 od 01.07.2013. godine, dana 24.07.2013. godine donio je i istog dana javno objavio</p>
+      </introduction>
+      <background>
+        <p class="subtitle">PRESUDU</p>
+        <p>Okrivljeni <party id="defendant_1" refersTo="#defendant_1" as="#defendant">M. A.</party>, državljanin Crne Gore, student građevine, neoženjen, izdržavaju ga roditelji, ranije neosuđivan.</p>
+        <p>Okrivljeni <party id="defendant_2" refersTo="#defendant_2" as="#defendant">V. S.</party>, državljanin Crne Gore, KV-autoelektričar, radnik komunalnog preduzeća, prosječna mjesečna zarada 220 €, ranije neosuđivan.</p>
+        <p>Okrivljeni <party id="defendant_3" refersTo="#defendant_3" as="#defendant">J. M.</party>, državljanin Crne Gore, KV-vozač, radnik preduzeća, prosječna mjesečna zarada 350 €, ranije neosuđivan.</p>
+      </background>
+      <decision>
+        <p>Krivi su</p>
+        <p>Što su dana 05.05.2013. godine oko 09,30h u mjestu „Dragaljevo“, opština Šavnik, za vrijeme lovostaja lovili divljač – vršili njeno osmatranje i praćenje, protivno Pravilniku o lovnim sezonama (Sl. list CG br. 60/10), te neovlašćeno nosili i držali vatreno oružje i municiju: M. A. lovačku pušku marke „specijal gwexrlauf-stahl SC“ kal. 16 mm i poluautomatsku pušku kineske proizvodnje kal. 7,62 mm bez oružnog lista; V. S. lovačku poluautomatsku pušku marke „Bereta“ kal. 12 mm sa 23 metka; J. M. lovačku pušku NN marke ruske proizvodnje kal. 16 mm sa 14 metaka, bez oružnog lista.</p>
+        <p>- čime su izvršili krivično djelo nedozvoljeno držanje oružja i eksplozivnih materija iz čl. 403 st. 1 KZ u sticaju sa krivičnim djelom nezakonit lov iz <ref href="/krivicni#art_325_para_1">čl. 325 st. 1</ref> <ref href="/krivicni">Krivičnog zakonika</ref>.</p>
+        <p>Pa sud okrivljenima primjenom čl. 4, 5, 13, 15, 32, 36 i 42 KZ utvrđuje svakom ponaosob: za krivično djelo iz čl. 403 st. 1 KZ kaznu zatvora u trajanju od po 3 (tri) mjeseca, a za krivično djelo iz čl. 325 st. 1 KZ kaznu zatvora u trajanju od po 2 (dva) mjeseca.</p>
+        <p>Primjenom čl. 48, 52, 53 i 54 KZ izriče</p>
+        <p class="subtitle">USLOVNU OSUDU</p>
+        <p>Sa kojom im utvrđuje jedinstvene kazne zatvora u trajanju od po 4 (četiri) mjeseca i istovremeno određuje da se ove kazne neće izvršiti ako osuđeni u roku od 2 (dvije) godine ne učine novo krivično djelo.</p>
+        <p>Na osnovu čl. 66, 67 tačka 7, čl. 75 i <ref href="/krivicni#art_325_para_5">čl. 325 st. 5</ref> KZ prema okrivljenima se izriču</p>
+        <p class="subtitle">MJERE BEZBJEDNOSTI</p>
+        <p>Oduzimanje navedenih lovačkih pušaka i municije od sva tri okrivljena, kao predmeta krivičnog djela.</p>
+        <p>Okrivljeni su dužni platiti paušal u iznosu od po 30 (trideset) € u roku od 15 dana po pravosnažnosti presude.</p>
+      </decision>
+      <arguments>
+        <p class="subtitle">Obrazloženje</p>
+        <p>Osnovni državni tužilac iz Pljevalja u optužnom predlogu Kt. br. 153/13 od 01.07.2013. godine pravno je ocijenio da su okrivljeni počinili krivična djela nedozvoljeno držanje oružja i eksplozivnih materija iz čl. 403 st. 1 KZ u sticaju sa krivičnim djelom nezakonit lov iz čl. 325 st. 1 KZ.</p>
+        <p>Sva tri okrivljena na glavnom pretresu su priznali krivicu i činjenične navode optužnog akta, navodeći da znaju da je bio lovostaj i da su se u lovištu „Dragaljevo“ u opštini Šavnik nalazili u nedozvoljenom lovu i nosili vatreno oružje. Izjavili su da kritične prilike ništa od divljači nisu odstrijelili i da nisu ni pucali.</p>
+        <p>Sud je u dokaznom postupku saslušao svjedoke B.Ž., L.D. i D.M. (policijske službenike Ispostave Šavnik), pročitao potvrde o privremeno oduzetom oružju, izvršio uvid u fotodokumentaciju i izvod iz kaznene evidencije za okrivljene.</p>
+        <p>Iz iskaza svjedoka proizilazi da su kao policajci učestvovali u akciji „lov“ u lovištu „Dragaljevo“, da je u to vrijeme lov bio zabranjen (lovostaj od 28.02. do 01.10. tekuće godine), te da su okrivljene zatekli u vozilima sa vatrenim oružjem i lovačkim psima. Kod okrivljenih nije pronađen ulov.</p>
+        <p>Pravnom ocjenom sud je našao da su okrivljeni počinili krivična djela jer su lovili u vrijeme lovostaja, suprotno Pravilniku o lovnim sezonama, te neovlašćeno držali vatreno oružje. Odredbom čl. 56 Zakona o divljači i lovstvu predviđeno je da lov obuhvata i radnje traženja, osmatranja i praćenja divljači.</p>
+        <p>Od olakšavajućih okolnosti sud je uzeo da okrivljeni ranije nisu osuđivani, da su priznali krivična djela i izrazili kajanje, da se radi o mladim osobama, te je u odsustvu otežavajućih okolnosti izrekao uslovne osude.</p>
+        <p><organization id="court" refersTo="#court">OSNOVNI SUD U ŽABLJAKU</organization>, dana 24.07.2013. godine</p>
+      </arguments>
+    </judgmentBody>
+    <conclusions>
+        <p>PRAVNA POUKA: Protiv ove presude dozvoljena je žalba u roku od 8 dana po prijemu pismenog otpravka presude, preko ovog suda Višem sudu Bijelo Polje.</p>
+    </conclusions>
+  </judgment>
+</akomaNtoso>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17 ../../schemas/akomantoso30.xsd">
+  <judgment>
+    <meta>
+      <identification source="#court">
+        <FRBRWork>
+          <FRBRauthor>OSNOVNI SUD U KOLAŠINU</FRBRauthor>
+          <FRBRdate date="2020-07-15">2020-07-15</FRBRdate>
+          <FRBRtitle>K 65/20</FRBRtitle>
+          <FRBRcountry>CG</FRBRcountry>
+        </FRBRWork>
+      </identification>
+      <references>
+        <TLCOrganization eId="court" href="/ontology/organization/OsnovniSud.Kolasin" showAs="Osnovni Sud u Kolašinu" />
+        <TLCOrganization eId="prosecutor_office" href="/ontology/organization/OsnovnoDrzavnoTuzilastvo.Kolasin" showAs="Osnovno državno tužilaštvo u Kolašinu" />
+        <TLCPerson eId="judge_person" href="/ontology/person/a-p" showAs="Arsen Popović" />
+        <TLCPerson eId="clerk_person" href="/ontology/person/m-lj" showAs="Mrdak Ljiljana" />
+        <TLCPerson eId="prosecutor_person" href="/ontology/person/g-v" showAs="Grujić Vojislav" />
+        <TLCPerson eId="defendant_1" href="/ontology/person/b-v" showAs="B. V." />
+        <TLCRole eId="defendant" href="/ontology/role/defendant" showAs="Defendant" />
+        <TLCRole eId="judge" href="/ontology/role/judge" showAs="Judge" />
+        <TLCRole eId="clerk" href="/ontology/role/clerk" showAs="Clerk" />
+        <TLCRole eId="prosecutor" href="/ontology/role/prosecutor" showAs="Prosecutor" />
+      </references>
+    </meta>
+    <judgmentBody>
+      <introduction>
+        <p><organization id="court" refersTo="#court">Osnovni Sud u Kolašinu</organization></p>
+        <p>15. Jul 2020</p>
+        <p class="subtitle">K. br. 65/20</p>
+        <p class="subtitle">U IME CRNE GORE</p>
+        <p><organization id="court" refersTo="#court">Osnovni sud u Kolašinu</organization> kao prvostepeni krivični, po predsjedniku suda <party id="judge_person" refersTo="#judge_person" as="#judge">Arsenu Popoviću</party> kao sudiji pojedincu, uz učešće zapisničara <party id="clerk_person" refersTo="#clerk_person" as="#clerk">Mrdak Ljiljane</party>, u krivičnom predmetu protiv okrivljenog <party id="defendant_1" refersTo="#defendant_1" as="#defendant">B. V.</party> iz Kolašina, zbog krivičnog djela nezakoniti lov iz <ref href="/krivicni#art_325_para_1">čl. 325 st. 1</ref> <ref href="/krivicni">Krivičnog zakonika</ref>, po optužnom predlogu ODT iz Kolašina Kt. br. 69/20 od 26.05.2020. godine, dana 15.07.2020. godine donio je i javno objavio</p>
+      </introduction>
+      <background>
+        <p class="subtitle">PRESUDU</p>
+        <p>Okrivljeni <party id="defendant_1" refersTo="#defendant_1" as="#defendant">B. V.</party>, državljanin Crne Gore, pismen, završio srednju školu, po zanimanju radnik, neoženjen, lošeg imovnog stanja, neosuđivan.</p>
+      </background>
+      <decision>
+        <p>Kriv je</p>
+        <p>Zato što je dana 08.05.2020. godine oko 07,00 časova, u mjestu L. G. – Opština Kolašin, svjestan svog djela čije izvršenje je htio a znajući da je isto zabranjeno, lovio divljač uz pomoć lovačkih pasa u vrijeme lovostaja, u lovištu kojim gazduje Lovačko društvo „L.“ iz Kolašina, na način što je protivno čl. 66 st. 1 t. 4 i 10 Zakona o divljači i lovstvu odstrijelio zeca, kojeg je potom stavio u putničko vozilo marke „Lada niva“.</p>
+        <p>- čime je izvršio krivično djelo nezakoniti lov iz <ref href="/krivicni#art_325_para_1">čl. 325 st. 1</ref> <ref href="/krivicni">Krivičnog zakonika</ref>.</p>
+        <p>Pa mu sud primjenom citirane zakonske odredbe te čl. 4, 13, 15, 32, 52, 53 i 54 KZ i čl. 229 i 374 ZKP-a izriče</p>
+        <p class="subtitle">USLOVNU OSUDU</p>
+        <p>Kojom okrivljenom utvrđuje kaznu zatvora u trajanju od 2 (dva) mjeseca i istovremeno određuje da se ista neće izvršiti ukoliko okrivljeni u roku od 1 (jedne) godine ne počini novo krivično djelo.</p>
+        <p>Obavezuje se okrivljeni na plaćanje sudskog paušala u iznosu od 30,00 € u roku od 15 dana po pravosnažnosti ove presude.</p>
+        <p>Shodno čl. 75 KZ prema okrivljenom B. V. izriče se</p>
+        <p class="subtitle">MJERA BEZBJEDNOSTI</p>
+        <p>Oduzimanje predmeta: lovačke puške marke „Zastava M 57“ kalibra 12 mm, fabričkog broja 92028, lovački nož, radio veza marke „Zon ton“ i sedam komada metaka kalibra 12 mm.</p>
+      </decision>
+      <arguments>
+        <p class="subtitle">Obrazloženje</p>
+        <p>Optužnim predlogom ODT iz Kolašina stavljeno je na teret okrivljenom B. V. da je počinio krivično djelo nezakoniti lov iz čl. 325 st. 1 KZ. Tužilac je u završnoj riječi predložio da sud okrivljenog oglasi krivim i osudi po zakonu.</p>
+        <p>Okrivljeni B. V. je u svojoj odbrani priznao izvršenje krivičnog djela koje mu je stavljeno na teret, navodeći da je dana 08.05.2020. godine otišao u lov na planini Sinjajevina sa lovačkom puškom i tri lovačka kera, te da je odstrijelio zeca u mjestu Lučka Gora. Naveo je da je član lovačkog društva, da ima položen lovački ispit, da je znao da je na snazi lovostaj i da priznaje svoju grešku.</p>
+        <p>Sud je pročitao iskaz ovlašćenog predstavnika oštećenog Lovačkog društva „L.“, kojim je naveden imovinskopravni zahtjev u iznosu od 150,00 € (koji je okrivljeni već uplatio), te izvod iz kaznene evidencije iz kog je utvrđeno da okrivljeni do sada nije osuđivan.</p>
+        <p>Sud je našao da je okrivljeni postupao umišljajno jer je bio svjestan svog djela čije izvršenje je htio a znajući da je isto zabranjeno.</p>
+        <p>Od olakšavajućih okolnosti sud je našao da okrivljeni do sada nije osuđivan, da je priznao izvršenje krivičnog djela i da je nadoknadio štetu, dok otežavajućih okolnosti nije bilo, pa je sud izrekao uslovnu osudu.</p>
+        <p><organization id="court" refersTo="#court">OSNOVNI SUD U KOLAŠINU</organization>, dana 15.07.2020. godine</p>
+      </arguments>
+    </judgmentBody>
+    <conclusions>
+        <p>PRAVNA POUKA: Protiv ove presude dozvoljena je žalba u roku od 8 dana od dana prijema pismenog otpravka. Žalba se podnosi Višem sudu u Bijelom Polju a preko ovog suda.</p>
+    </conclusions>
+  </judgment>
+</akomaNtoso>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17 ../../schemas/akomantoso30.xsd">
+  <judgment>
+    <meta>
+      <identification source="#court">
+        <FRBRWork>
+          <FRBRauthor>OSNOVNI SUD U PODGORICI</FRBRauthor>
+          <FRBRdate date="2018-07-09">2018-07-09</FRBRdate>
+          <FRBRtitle>K 53/18</FRBRtitle>
+          <FRBRcountry>CG</FRBRcountry>
+        </FRBRWork>
+      </identification>
+      <references>
+        <TLCOrganization eId="court" href="/ontology/organization/OsnovniSud.Podgorica" showAs="Osnovni Sud u Podgorici" />
+        <TLCOrganization eId="prosecutor_office" href="/ontology/organization/OsnovnoDrzavnoTuzilastvo.Podgorica" showAs="Osnovno državno tužilaštvo u Podgorici" />
+        <TLCPerson eId="judge_person" href="/ontology/person/z-j" showAs="Željka Jovović" />
+        <TLCPerson eId="clerk_person" href="/ontology/person/d-r" showAs="Danijela Rajković" />
+        <TLCPerson eId="prosecutor_person" href="/ontology/person/a-b" showAs="Ana Bošković" />
+        <TLCPerson eId="defendant_1" href="/ontology/person/m-l" showAs="M. L." />
+        <TLCPerson eId="defendant_2" href="/ontology/person/d-z" showAs="D. Ž." />
+        <TLCRole eId="defendant" href="/ontology/role/defendant" showAs="Defendant" />
+        <TLCRole eId="judge" href="/ontology/role/judge" showAs="Judge" />
+        <TLCRole eId="clerk" href="/ontology/role/clerk" showAs="Clerk" />
+        <TLCRole eId="prosecutor" href="/ontology/role/prosecutor" showAs="Prosecutor" />
+      </references>
+    </meta>
+    <judgmentBody>
+      <introduction>
+        <p><organization id="court" refersTo="#court">Osnovni Sud u Podgorici</organization></p>
+        <p>9. Jul 2018</p>
+        <p class="subtitle">K. br. 53/18</p>
+        <p class="subtitle">U IME CRNE GORE</p>
+        <p><organization id="court" refersTo="#court">OSNOVNI SUD U PODGORICI</organization>, kao prvostepeni krivični, po sutkinji <party id="judge_person" refersTo="#judge_person" as="#judge">Željki Jovović</party>, uz učešće samostalne referentkinje <party id="clerk_person" refersTo="#clerk_person" as="#clerk">Danijele Rajković</party> kao zapisničarke, u krivičnom postupku protiv okrivljenih <party id="defendant_1" refersTo="#defendant_1" as="#defendant">M. L.</party> i <party id="defendant_2" refersTo="#defendant_2" as="#defendant">D. Ž.</party>, zbog krivičnog djela nedozvoljeno držanje oružja i eksplozivnih materija iz čl. 403 st. 1 KZ i krivičnog djela nezakonit lov iz <ref href="/krivicni#art_325_para_1">čl. 325 st. 1</ref> u vezi <ref href="/krivicni#art_23_para_2">čl. 23 st. 2</ref> <ref href="/krivicni">Krivičnog zakonika</ref>, po optužnom predlogu ODT-a Podgorica Kt. br. 1184/17 od 30.01.2018. godine, dana 09.07.2018. godine izrekao je i istog dana javno objavio</p>
+      </introduction>
+      <background>
+        <p class="subtitle">PRESUDU</p>
+        <p>Okrivljeni <party id="defendant_1" refersTo="#defendant_1" as="#defendant">M. L.</party>, državljanin Crne Gore, penzioner, oženjen, otac dvoje djece, završio srednju školu, lošeg imovnog stanja, neosuđivan.</p>
+        <p>Okrivljeni <party id="defendant_2" refersTo="#defendant_2" as="#defendant">D. Ž.</party>, državljanin Crne Gore, penzioner, oženjen, otac četvoro djece, srednjeg imovnog stanja, ranije osuđivan presudom Osnovnog suda u Herceg Novom K. br. 123/02 i presudom Osnovnog suda u Podgorici K. br. 2000/2891.</p>
+      </background>
+      <decision>
+        <p>Krivi su</p>
+        <p>Što su dana 08. oktobra 2017. godine, oko 15,00 časova, u Podgorici, u Nacionalnom parku „Skadarsko jezero“, zajedno i po prethodnom dogovoru, svjesni svog djela čije su izvršenje htjeli, lovili divljač na području gdje je lov zabranjen, suprotno čl. 56 st. 2 Zakona o divljači i lovstvu, van lovišta, te ulovili ptice – pet baljuški i dvije patke; istovremeno su neovlašćeno na javnom mjestu, suprotno čl. 5 st. 2 i čl. 33 st. 1 Zakona o oružju, nosili vatreno oružje: M. L. lovačku pušku „Huglu 601G“ kal. 12 mm sa 21 metkom, a D. Ž. lovačku pušku „Baikal“ model IJ-58 kal. 12 mm sa 20 metaka, za koje oružje nisu imali izdatu ispravu o oružju.</p>
+        <p>- čime su izvršili krivično djelo nedozvoljeno držanje oružja i eksplozivnih materija iz čl. 403 st. 1 KZ, a kao saizvršioci i krivično djelo nezakonit lov iz <ref href="/krivicni#art_325_para_1">čl. 325 st. 1</ref> u vezi <ref href="/krivicni#art_23_para_2">čl. 23 st. 2</ref> <ref href="/krivicni">Krivičnog zakonika</ref>.</p>
+        <p>Sud okrivljenom M. L. primjenom čl. 4 st. 2, 36, 42 st. 1, te čl. 48 st. 1 KZ prethodno utvrđuje: za krivično djelo iz čl. 403 st. 1 KZ kaznu zatvora u trajanju od 3 (tri) mjeseca, za krivično djelo iz čl. 325 st. 1 u vezi čl. 23 st. 2 KZ kaznu zatvora u trajanju od 40 (četrdeset) dana, pa mu primjenom čl. 48 st. 2, 52 st. 2, 53 i 54 KZ izriče</p>
+        <p class="subtitle">USLOVNU OSUDU</p>
+        <p>S tim što mu utvrđuje jedinstvenu kaznu zatvora u trajanju od 4 (četiri) mjeseca i istovremeno određuje da se ista neće izvršiti ukoliko okrivljeni u roku od 2 (dvije) godine po pravosnažnosti presude ne izvrši novo krivično djelo.</p>
+        <p>Sud okrivljenom D. Ž. primjenom čl. 4 st. 2, 32, 41, 42 st. 1 i čl. 48 st. 1 KZ prethodno utvrđuje: za krivično djelo iz čl. 403 st. 1 KZ kaznu rada u javnom interesu u trajanju od 180 časova, za krivično djelo iz čl. 325 st. 1 u vezi čl. 23 st. 2 KZ kaznu rada u javnom interesu u trajanju od 60 časova, pa ga primjenom čl. 48 st. 2 KZ osuđuje na jedinstvenu kaznu rada u javnom interesu u trajanju od 240 (dvjestočetrdeset) časova, koja se ima izvršiti za vrijeme od 6 mjeseci.</p>
+        <p>Na osnovu čl. 75 KZ izriče se</p>
+        <p class="subtitle">MJERA BEZBJEDNOSTI</p>
+        <p>Oduzimanje od okrivljenih lovačkih pušaka „Huglu 601G“ i „Baikal“ model IJ-58 sa pripadajućom municijom, kao predmeta izvršenja krivičnog djela.</p>
+        <p>Obavezuju se okrivljeni da na ime troškova krivičnog postupka plate iznos od po 30,00 € u roku od 15 dana po pravosnažnosti presude.</p>
+      </decision>
+      <arguments>
+        <p class="subtitle">Obrazloženje</p>
+        <p>Optužnim predlogom ODT-a Podgorica okrivljenima je stavljeno na teret izvršenje krivičnog djela iz čl. 403 st. 1 KZ, te kao saizvršioci krivično djelo iz čl. 325 st. 1 u vezi čl. 23 st. 2 KZ. U završnoj riječi zastupnica optužbe je predložila da sud okrivljene oglasi krivim.</p>
+        <p>Okrivljeni M. L. je u odbrani naveo da se sa D. Ž. dogovorio da pođe na Skadarsko jezero radi lova divljih ptica, da je sa sobom ponio pušku „Huglu“ za koju nije imao izdat oružni list. Na glavnom pretresu je priznao i izvršenje krivičnog djela nezakonit lov, navodeći da je znao da se ne smije loviti na području Nacionalnog parka.</p>
+        <p>Okrivljeni D. Ž. je u odbrani naveo da je kritičnog dana sa M. L. pošao na jezero radi lova ptica, da je sa sobom imao pušku „Baikal“ za koju nije imao izdat oružni list. Na glavnom pretresu je priznao i izvršenje krivičnog djela nezakonit lov.</p>
+        <p>Sud je saslušao svjedoke D. I. i G. K. (službenike NP „Skadarsko jezero“), pročitao zapisnik o izvršenoj kontroli, potvrde o privremeno oduzetim predmetima, izvještaj o balističkom vještačenju, te uvjerenja iz kaznene evidencije.</p>
+        <p>Svjedoci jasno navode da su u reonu između Lesendra i Čakovice zatekli okrivljene u čunu sa puškama, municijom i ulovljenim baljuškama i patkama. U NP „Skadarsko jezero“ zabranjena je svaka vrsta lova, što je potvrđeno dopisom Ministarstva poljoprivrede.</p>
+        <p>Sud je ocijenio da su okrivljeni, učestvovanjem u radnji izvršenja i po prethodnom dogovoru, zajednički izvršili krivično djelo nezakonit lov iz čl. 325 st. 1 KZ, pri čemu su bili svjesni da love divljač na području gdje je lov zabranjen.</p>
+        <p>Prilikom odlučivanja o krivičnim sankcijama, na strani M. L. sud je cijenio kao olakšavajuće okolnosti porodične prilike, zrelu životnu dob (64 godine), loše imovno i pogoršano zdravstveno stanje, te raniju neosuđivanost. Na strani D. Ž. sud je od otežavajućih okolnosti cijenio njegovu raniju osuđivanost, pa mu je izrekao kaznu rad u javnom interesu.</p>
+        <p><organization id="court" refersTo="#court">OSNOVNI SUD U PODGORICI</organization>, dana 09.07.2018. godine</p>
+      </arguments>
+    </judgmentBody>
+    <conclusions>
+        <p>PRAVNA POUKA: Protiv ove presude dozvoljena je žalba u roku od 8 dana od dana prijema pismenog otpravka iste, preko ovog suda Višem sudu u Podgorici.</p>
+    </conclusions>
+  </judgment>
+</akomaNtoso>
